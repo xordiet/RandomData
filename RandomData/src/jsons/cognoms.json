@@ -1,0 +1,925 @@
+{
+  "feed": {
+    "opensearch:Query": {
+      "startPage": "5",
+      "role": "request",
+      "searchTerms": ""
+    },
+    "author": {
+      "name": "Idescat",
+      "uri": "https://www.idescat.cat/cognoms/"
+    },
+    "ono:r": "2020",
+    "ono:geo": {
+      "scheme": "ca",
+      "id": "09",
+      "content": "Catalunya"
+    },
+    "xmlns:ono": "https://www.idescat.cat/-/onomastica/1.0/",
+    "link": [
+      {
+        "rel": "search",
+        "href": "https://www.idescat.cat/xml/cognoms-ca.xml",
+        "type": "application/opensearchdescription+xml"
+      },
+      {
+        "rel": "self",
+        "href": "https://api.idescat.cat/onomastica/v1/cognoms/cerca.xml&posicio=100",
+        "type": "application/atom+xml"
+      },
+      {
+        "rel": "alternate",
+        "href": "https://www.idescat.cat/cognoms/",
+        "type": "text/html"
+      },
+      {
+        "rel": "first",
+        "href": "https://api.idescat.cat/onomastica/v1/cognoms/cerca.xml?orderby=v&desc=1",
+        "type": "application/atom+xml"
+      },
+      {
+        "rel": "last",
+        "href": "https://api.idescat.cat/onomastica/v1/cognoms/cerca.xml?orderby=v&desc=1&posicio=41148",
+        "type": "application/atom+xml"
+      },
+      {
+        "rel": "previous",
+        "href": "https://api.idescat.cat/onomastica/v1/cognoms/cerca.xml?orderby=v&desc=1&posicio=75",
+        "type": "application/atom+xml"
+      },
+      {
+        "rel": "next",
+        "href": "https://api.idescat.cat/onomastica/v1/cognoms/cerca.xml?orderby=v&desc=1&posicio=125",
+        "type": "application/atom+xml"
+      }
+    ],
+    "title": {
+      "xml:lang": "ca",
+      "content": "Cognoms de la població. Catalunya. 2020 100"
+    },
+    "opensearch:startIndex": "101",
+    "opensearch:totalResults": "41173",
+    "entry": [
+      {
+        "ono:f": {
+          "ono:c": {
+            "id": "169687",
+            "content": "GRAU"
+          },
+          "ono:rank": {
+            "ono:total": "101"
+          },
+          "ono:pos2": {
+            "ono:w": {
+              "ono:total": "0.88"
+            },
+            "ono:v": "6773"
+          },
+          "ono:pos1": {
+            "ono:w": {
+              "ono:total": "0.98"
+            },
+            "ono:v": "7539"
+          }
+        },
+        "link": {
+          "href": "https://www.idescat.cat/cognoms/?geo=3&id=169687",
+          "type": "text/html"
+        },
+        "id": "tag:idescat.cat,2010:cognoms/169687",
+        "title": "GRAU",
+        "updated": "2020-10-30T11:00:00+00:00",
+        "content": {
+          "xml:lang": "ca",
+          "content": "Com a primer cognom: 7.539 persones; com a segon cognom: 6.773 persones"
+        }
+      },
+      {
+        "ono:f": {
+          "ono:c": {
+            "id": "126080",
+            "content": "MONTERO"
+          },
+          "ono:rank": {
+            "ono:total": "102"
+          },
+          "ono:pos2": {
+            "ono:w": {
+              "ono:total": "0.92"
+            },
+            "ono:v": "7091"
+          },
+          "ono:pos1": {
+            "ono:w": {
+              "ono:total": "0.93"
+            },
+            "ono:v": "7193"
+          }
+        },
+        "link": {
+          "href": "https://www.idescat.cat/cognoms/?geo=3&id=126080",
+          "type": "text/html"
+        },
+        "id": "tag:idescat.cat,2010:cognoms/126080",
+        "title": "MONTERO",
+        "updated": "2020-10-30T11:00:00+00:00",
+        "content": {
+          "xml:lang": "ca",
+          "content": "Com a primer cognom: 7.193 persones; com a segon cognom: 7.091 persones"
+        }
+      },
+      {
+        "ono:f": {
+          "ono:c": {
+            "id": "41046",
+            "content": "PRIETO"
+          },
+          "ono:rank": {
+            "ono:total": "103"
+          },
+          "ono:pos2": {
+            "ono:w": {
+              "ono:total": "0.91"
+            },
+            "ono:v": "7001"
+          },
+          "ono:pos1": {
+            "ono:w": {
+              "ono:total": "0.93"
+            },
+            "ono:v": "7161"
+          }
+        },
+        "link": {
+          "href": "https://www.idescat.cat/cognoms/?geo=3&id=41046",
+          "type": "text/html"
+        },
+        "id": "tag:idescat.cat,2010:cognoms/41046",
+        "title": "PRIETO",
+        "updated": "2020-10-30T11:00:00+00:00",
+        "content": {
+          "xml:lang": "ca",
+          "content": "Com a primer cognom: 7.161 persones; com a segon cognom: 7.001 persones"
+        }
+      },
+      {
+        "ono:f": {
+          "ono:c": {
+            "id": "204511",
+            "content": "ARIAS"
+          },
+          "ono:rank": {
+            "ono:total": "104"
+          },
+          "ono:pos2": {
+            "ono:w": {
+              "ono:total": "0.94"
+            },
+            "ono:v": "7197"
+          },
+          "ono:pos1": {
+            "ono:w": {
+              "ono:total": "0.90"
+            },
+            "ono:v": "6962"
+          }
+        },
+        "link": {
+          "href": "https://www.idescat.cat/cognoms/?geo=3&id=204511",
+          "type": "text/html"
+        },
+        "id": "tag:idescat.cat,2010:cognoms/204511",
+        "title": "ARIAS",
+        "updated": "2020-10-30T11:00:00+00:00",
+        "content": {
+          "xml:lang": "ca",
+          "content": "Com a primer cognom: 6.962 persones; com a segon cognom: 7.197 persones"
+        }
+      },
+      {
+        "ono:f": {
+          "ono:c": {
+            "id": "1405",
+            "content": "TOMAS"
+          },
+          "ono:rank": {
+            "ono:total": "105"
+          },
+          "ono:pos2": {
+            "ono:w": {
+              "ono:total": "0.90"
+            },
+            "ono:v": "6928"
+          },
+          "ono:pos1": {
+            "ono:w": {
+              "ono:total": "0.94"
+            },
+            "ono:v": "7229"
+          }
+        },
+        "link": {
+          "href": "https://www.idescat.cat/cognoms/?geo=3&id=1405",
+          "type": "text/html"
+        },
+        "id": "tag:idescat.cat,2010:cognoms/1405",
+        "title": "TOMAS",
+        "updated": "2020-10-30T11:00:00+00:00",
+        "content": {
+          "xml:lang": "ca",
+          "content": "Com a primer cognom: 7.229 persones; com a segon cognom: 6.928 persones"
+        }
+      },
+      {
+        "ono:f": {
+          "ono:c": {
+            "id": "295740",
+            "content": "NIETO"
+          },
+          "ono:rank": {
+            "ono:total": "106"
+          },
+          "ono:pos2": {
+            "ono:w": {
+              "ono:total": "0.92"
+            },
+            "ono:v": "7050"
+          },
+          "ono:pos1": {
+            "ono:w": {
+              "ono:total": "0.91"
+            },
+            "ono:v": "6968"
+          }
+        },
+        "link": {
+          "href": "https://www.idescat.cat/cognoms/?geo=3&id=295740",
+          "type": "text/html"
+        },
+        "id": "tag:idescat.cat,2010:cognoms/295740",
+        "title": "NIETO",
+        "updated": "2020-10-30T11:00:00+00:00",
+        "content": {
+          "xml:lang": "ca",
+          "content": "Com a primer cognom: 6.968 persones; com a segon cognom: 7.050 persones"
+        }
+      },
+      {
+        "ono:f": {
+          "ono:c": {
+            "id": "81722",
+            "content": "LUQUE"
+          },
+          "ono:rank": {
+            "ono:total": "107"
+          },
+          "ono:pos2": {
+            "ono:w": {
+              "ono:total": "0.92"
+            },
+            "ono:v": "7067"
+          },
+          "ono:pos1": {
+            "ono:w": {
+              "ono:total": "0.90"
+            },
+            "ono:v": "6903"
+          }
+        },
+        "link": {
+          "href": "https://www.idescat.cat/cognoms/?geo=3&id=81722",
+          "type": "text/html"
+        },
+        "id": "tag:idescat.cat,2010:cognoms/81722",
+        "title": "LUQUE",
+        "updated": "2020-10-30T11:00:00+00:00",
+        "content": {
+          "xml:lang": "ca",
+          "content": "Com a primer cognom: 6.903 persones; com a segon cognom: 7.067 persones"
+        }
+      },
+      {
+        "ono:f": {
+          "ono:c": {
+            "id": "40927",
+            "content": "DOMENECH"
+          },
+          "ono:rank": {
+            "ono:total": "108"
+          },
+          "ono:pos2": {
+            "ono:w": {
+              "ono:total": "0.89"
+            },
+            "ono:v": "6815"
+          },
+          "ono:pos1": {
+            "ono:w": {
+              "ono:total": "0.93"
+            },
+            "ono:v": "7135"
+          }
+        },
+        "link": {
+          "href": "https://www.idescat.cat/cognoms/?geo=3&id=40927",
+          "type": "text/html"
+        },
+        "id": "tag:idescat.cat,2010:cognoms/40927",
+        "title": "DOMENECH",
+        "updated": "2020-10-30T11:00:00+00:00",
+        "content": {
+          "xml:lang": "ca",
+          "content": "Com a primer cognom: 7.135 persones; com a segon cognom: 6.815 persones"
+        }
+      },
+      {
+        "ono:f": {
+          "ono:c": {
+            "id": "169696",
+            "content": "LARA"
+          },
+          "ono:rank": {
+            "ono:total": "109"
+          },
+          "ono:pos2": {
+            "ono:w": {
+              "ono:total": "0.89"
+            },
+            "ono:v": "6875"
+          },
+          "ono:pos1": {
+            "ono:w": {
+              "ono:total": "0.89"
+            },
+            "ono:v": "6850"
+          }
+        },
+        "link": {
+          "href": "https://www.idescat.cat/cognoms/?geo=3&id=169696",
+          "type": "text/html"
+        },
+        "id": "tag:idescat.cat,2010:cognoms/169696",
+        "title": "LARA",
+        "updated": "2020-10-30T11:00:00+00:00",
+        "content": {
+          "xml:lang": "ca",
+          "content": "Com a primer cognom: 6.850 persones; com a segon cognom: 6.875 persones"
+        }
+      },
+      {
+        "ono:f": {
+          "ono:c": {
+            "id": "169723",
+            "content": "VALLS"
+          },
+          "ono:rank": {
+            "ono:total": "110"
+          },
+          "ono:pos2": {
+            "ono:w": {
+              "ono:total": "0.85"
+            },
+            "ono:v": "6542"
+          },
+          "ono:pos1": {
+            "ono:w": {
+              "ono:total": "0.93"
+            },
+            "ono:v": "7179"
+          }
+        },
+        "link": {
+          "href": "https://www.idescat.cat/cognoms/?geo=3&id=169723",
+          "type": "text/html"
+        },
+        "id": "tag:idescat.cat,2010:cognoms/169723",
+        "title": "VALLS",
+        "updated": "2020-10-30T11:00:00+00:00",
+        "content": {
+          "xml:lang": "ca",
+          "content": "Com a primer cognom: 7.179 persones; com a segon cognom: 6.542 persones"
+        }
+      },
+      {
+        "ono:f": {
+          "ono:c": {
+            "id": "296723",
+            "content": "SOTO"
+          },
+          "ono:rank": {
+            "ono:total": "111"
+          },
+          "ono:pos2": {
+            "ono:w": {
+              "ono:total": "0.86"
+            },
+            "ono:v": "6582"
+          },
+          "ono:pos1": {
+            "ono:w": {
+              "ono:total": "0.85"
+            },
+            "ono:v": "6559"
+          }
+        },
+        "link": {
+          "href": "https://www.idescat.cat/cognoms/?geo=3&id=296723",
+          "type": "text/html"
+        },
+        "id": "tag:idescat.cat,2010:cognoms/296723",
+        "title": "SOTO",
+        "updated": "2020-10-30T11:00:00+00:00",
+        "content": {
+          "xml:lang": "ca",
+          "content": "Com a primer cognom: 6.559 persones; com a segon cognom: 6.582 persones"
+        }
+      },
+      {
+        "ono:f": {
+          "ono:c": {
+            "id": "40965",
+            "content": "SANTIAGO"
+          },
+          "ono:rank": {
+            "ono:total": "112"
+          },
+          "ono:pos2": {
+            "ono:w": {
+              "ono:total": "0.82"
+            },
+            "ono:v": "6316"
+          },
+          "ono:pos1": {
+            "ono:w": {
+              "ono:total": "0.87"
+            },
+            "ono:v": "6720"
+          }
+        },
+        "link": {
+          "href": "https://www.idescat.cat/cognoms/?geo=3&id=40965",
+          "type": "text/html"
+        },
+        "id": "tag:idescat.cat,2010:cognoms/40965",
+        "title": "SANTIAGO",
+        "updated": "2020-10-30T11:00:00+00:00",
+        "content": {
+          "xml:lang": "ca",
+          "content": "Com a primer cognom: 6.720 persones; com a segon cognom: 6.316 persones"
+        }
+      },
+      {
+        "ono:f": {
+          "ono:c": {
+            "id": "41090",
+            "content": "COLL"
+          },
+          "ono:rank": {
+            "ono:total": "113"
+          },
+          "ono:pos2": {
+            "ono:w": {
+              "ono:total": "0.81"
+            },
+            "ono:v": "6213"
+          },
+          "ono:pos1": {
+            "ono:w": {
+              "ono:total": "0.85"
+            },
+            "ono:v": "6549"
+          }
+        },
+        "link": {
+          "href": "https://www.idescat.cat/cognoms/?geo=3&id=41090",
+          "type": "text/html"
+        },
+        "id": "tag:idescat.cat,2010:cognoms/41090",
+        "title": "COLL",
+        "updated": "2020-10-30T11:00:00+00:00",
+        "content": {
+          "xml:lang": "ca",
+          "content": "Com a primer cognom: 6.549 persones; com a segon cognom: 6.213 persones"
+        }
+      },
+      {
+        "ono:f": {
+          "ono:c": {
+            "id": "1410",
+            "content": "VEGA"
+          },
+          "ono:rank": {
+            "ono:total": "114"
+          },
+          "ono:pos2": {
+            "ono:w": {
+              "ono:total": "0.81"
+            },
+            "ono:v": "6235"
+          },
+          "ono:pos1": {
+            "ono:w": {
+              "ono:total": "0.84"
+            },
+            "ono:v": "6492"
+          }
+        },
+        "link": {
+          "href": "https://www.idescat.cat/cognoms/?geo=3&id=1410",
+          "type": "text/html"
+        },
+        "id": "tag:idescat.cat,2010:cognoms/1410",
+        "title": "VEGA",
+        "updated": "2020-10-30T11:00:00+00:00",
+        "content": {
+          "xml:lang": "ca",
+          "content": "Com a primer cognom: 6.492 persones; com a segon cognom: 6.235 persones"
+        }
+      },
+      {
+        "ono:f": {
+          "ono:c": {
+            "id": "204514",
+            "content": "BENITEZ"
+          },
+          "ono:rank": {
+            "ono:total": "115"
+          },
+          "ono:pos2": {
+            "ono:w": {
+              "ono:total": "0.82"
+            },
+            "ono:v": "6334"
+          },
+          "ono:pos1": {
+            "ono:w": {
+              "ono:total": "0.82"
+            },
+            "ono:v": "6320"
+          }
+        },
+        "link": {
+          "href": "https://www.idescat.cat/cognoms/?geo=3&id=204514",
+          "type": "text/html"
+        },
+        "id": "tag:idescat.cat,2010:cognoms/204514",
+        "title": "BENITEZ",
+        "updated": "2020-10-30T11:00:00+00:00",
+        "content": {
+          "xml:lang": "ca",
+          "content": "Com a primer cognom: 6.320 persones; com a segon cognom: 6.334 persones"
+        }
+      },
+      {
+        "ono:f": {
+          "ono:c": {
+            "id": "82896",
+            "content": "SINGH"
+          },
+          "ono:rank": {
+            "ono:total": "116"
+          },
+          "ono:pos2": {
+            "ono:w": {
+              "ono:total": "0.05"
+            },
+            "ono:v": "360"
+          },
+          "ono:pos1": {
+            "ono:w": {
+              "ono:total": "1.57"
+            },
+            "ono:v": "12110"
+          }
+        },
+        "link": {
+          "href": "https://www.idescat.cat/cognoms/?geo=3&id=82896",
+          "type": "text/html"
+        },
+        "id": "tag:idescat.cat,2010:cognoms/82896",
+        "title": "SINGH",
+        "updated": "2020-10-30T11:00:00+00:00",
+        "content": {
+          "xml:lang": "ca",
+          "content": "Com a primer cognom: 12.110 persones; com a segon cognom: 360 persones"
+        }
+      },
+      {
+        "ono:f": {
+          "ono:c": {
+            "id": "125977",
+            "content": "CARRILLO"
+          },
+          "ono:rank": {
+            "ono:total": "117"
+          },
+          "ono:pos2": {
+            "ono:w": {
+              "ono:total": "0.80"
+            },
+            "ono:v": "6182"
+          },
+          "ono:pos1": {
+            "ono:w": {
+              "ono:total": "0.80"
+            },
+            "ono:v": "6177"
+          }
+        },
+        "link": {
+          "href": "https://www.idescat.cat/cognoms/?geo=3&id=125977",
+          "type": "text/html"
+        },
+        "id": "tag:idescat.cat,2010:cognoms/125977",
+        "title": "CARRILLO",
+        "updated": "2020-10-30T11:00:00+00:00",
+        "content": {
+          "xml:lang": "ca",
+          "content": "Com a primer cognom: 6.177 persones; com a segon cognom: 6.182 persones"
+        }
+      },
+      {
+        "ono:f": {
+          "ono:c": {
+            "id": "40952",
+            "content": "MENDOZA"
+          },
+          "ono:rank": {
+            "ono:total": "118"
+          },
+          "ono:pos2": {
+            "ono:w": {
+              "ono:total": "0.80"
+            },
+            "ono:v": "6130"
+          },
+          "ono:pos1": {
+            "ono:w": {
+              "ono:total": "0.79"
+            },
+            "ono:v": "6046"
+          }
+        },
+        "link": {
+          "href": "https://www.idescat.cat/cognoms/?geo=3&id=40952",
+          "type": "text/html"
+        },
+        "id": "tag:idescat.cat,2010:cognoms/40952",
+        "title": "MENDOZA",
+        "updated": "2020-10-30T11:00:00+00:00",
+        "content": {
+          "xml:lang": "ca",
+          "content": "Com a primer cognom: 6.046 persones; com a segon cognom: 6.130 persones"
+        }
+      },
+      {
+        "ono:f": {
+          "ono:c": {
+            "id": "1478",
+            "content": "RIVERA"
+          },
+          "ono:rank": {
+            "ono:total": "119"
+          },
+          "ono:pos2": {
+            "ono:w": {
+              "ono:total": "0.77"
+            },
+            "ono:v": "5959"
+          },
+          "ono:pos1": {
+            "ono:w": {
+              "ono:total": "0.80"
+            },
+            "ono:v": "6172"
+          }
+        },
+        "link": {
+          "href": "https://www.idescat.cat/cognoms/?geo=3&id=1478",
+          "type": "text/html"
+        },
+        "id": "tag:idescat.cat,2010:cognoms/1478",
+        "title": "RIVERA",
+        "updated": "2020-10-30T11:00:00+00:00",
+        "content": {
+          "xml:lang": "ca",
+          "content": "Com a primer cognom: 6.172 persones; com a segon cognom: 5.959 persones"
+        }
+      },
+      {
+        "ono:f": {
+          "ono:c": {
+            "id": "1310",
+            "content": "VERA"
+          },
+          "ono:rank": {
+            "ono:total": "120"
+          },
+          "ono:pos2": {
+            "ono:w": {
+              "ono:total": "0.78"
+            },
+            "ono:v": "6019"
+          },
+          "ono:pos1": {
+            "ono:w": {
+              "ono:total": "0.79"
+            },
+            "ono:v": "6095"
+          }
+        },
+        "link": {
+          "href": "https://www.idescat.cat/cognoms/?geo=3&id=1310",
+          "type": "text/html"
+        },
+        "id": "tag:idescat.cat,2010:cognoms/1310",
+        "title": "VERA",
+        "updated": "2020-10-30T11:00:00+00:00",
+        "content": {
+          "xml:lang": "ca",
+          "content": "Com a primer cognom: 6.095 persones; com a segon cognom: 6.019 persones"
+        }
+      },
+      {
+        "ono:f": {
+          "ono:c": {
+            "id": "296716",
+            "content": "ROMAN"
+          },
+          "ono:rank": {
+            "ono:total": "121"
+          },
+          "ono:pos2": {
+            "ono:w": {
+              "ono:total": "0.77"
+            },
+            "ono:v": "5910"
+          },
+          "ono:pos1": {
+            "ono:w": {
+              "ono:total": "0.80"
+            },
+            "ono:v": "6153"
+          }
+        },
+        "link": {
+          "href": "https://www.idescat.cat/cognoms/?geo=3&id=296716",
+          "type": "text/html"
+        },
+        "id": "tag:idescat.cat,2010:cognoms/296716",
+        "title": "ROMAN",
+        "updated": "2020-10-30T11:00:00+00:00",
+        "content": {
+          "xml:lang": "ca",
+          "content": "Com a primer cognom: 6.153 persones; com a segon cognom: 5.910 persones"
+        }
+      },
+      {
+        "ono:f": {
+          "ono:c": {
+            "id": "1265",
+            "content": "EXPOSITO"
+          },
+          "ono:rank": {
+            "ono:total": "122"
+          },
+          "ono:pos2": {
+            "ono:w": {
+              "ono:total": "0.81"
+            },
+            "ono:v": "6246"
+          },
+          "ono:pos1": {
+            "ono:w": {
+              "ono:total": "0.72"
+            },
+            "ono:v": "5547"
+          }
+        },
+        "link": {
+          "href": "https://www.idescat.cat/cognoms/?geo=3&id=1265",
+          "type": "text/html"
+        },
+        "id": "tag:idescat.cat,2010:cognoms/1265",
+        "title": "EXPOSITO",
+        "updated": "2020-10-30T11:00:00+00:00",
+        "content": {
+          "xml:lang": "ca",
+          "content": "Com a primer cognom: 5.547 persones; com a segon cognom: 6.246 persones"
+        }
+      },
+      {
+        "ono:f": {
+          "ono:c": {
+            "id": "169719",
+            "content": "SORIANO"
+          },
+          "ono:rank": {
+            "ono:total": "123"
+          },
+          "ono:pos2": {
+            "ono:w": {
+              "ono:total": "0.75"
+            },
+            "ono:v": "5767"
+          },
+          "ono:pos1": {
+            "ono:w": {
+              "ono:total": "0.78"
+            },
+            "ono:v": "5983"
+          }
+        },
+        "link": {
+          "href": "https://www.idescat.cat/cognoms/?geo=3&id=169719",
+          "type": "text/html"
+        },
+        "id": "tag:idescat.cat,2010:cognoms/169719",
+        "title": "SORIANO",
+        "updated": "2020-10-30T11:00:00+00:00",
+        "content": {
+          "xml:lang": "ca",
+          "content": "Com a primer cognom: 5.983 persones; com a segon cognom: 5.767 persones"
+        }
+      },
+      {
+        "ono:f": {
+          "ono:c": {
+            "id": "40934",
+            "content": "GRACIA"
+          },
+          "ono:rank": {
+            "ono:total": "124"
+          },
+          "ono:pos2": {
+            "ono:w": {
+              "ono:total": "0.76"
+            },
+            "ono:v": "5868"
+          },
+          "ono:pos1": {
+            "ono:w": {
+              "ono:total": "0.76"
+            },
+            "ono:v": "5879"
+          }
+        },
+        "link": {
+          "href": "https://www.idescat.cat/cognoms/?geo=3&id=40934",
+          "type": "text/html"
+        },
+        "id": "tag:idescat.cat,2010:cognoms/40934",
+        "title": "GRACIA",
+        "updated": "2020-10-30T11:00:00+00:00",
+        "content": {
+          "xml:lang": "ca",
+          "content": "Com a primer cognom: 5.879 persones; com a segon cognom: 5.868 persones"
+        }
+      },
+      {
+        "ono:f": {
+          "ono:c": {
+            "id": "204613",
+            "content": "FRANCO"
+          },
+          "ono:rank": {
+            "ono:total": "125"
+          },
+          "ono:pos2": {
+            "ono:w": {
+              "ono:total": "0.73"
+            },
+            "ono:v": "5648"
+          },
+          "ono:pos1": {
+            "ono:w": {
+              "ono:total": "0.77"
+            },
+            "ono:v": "5940"
+          }
+        },
+        "link": {
+          "href": "https://www.idescat.cat/cognoms/?geo=3&id=204613",
+          "type": "text/html"
+        },
+        "id": "tag:idescat.cat,2010:cognoms/204613",
+        "title": "FRANCO",
+        "updated": "2020-10-30T11:00:00+00:00",
+        "content": {
+          "xml:lang": "ca",
+          "content": "Com a primer cognom: 5.940 persones; com a segon cognom: 5.648 persones"
+        }
+      },
+      {"ono:f":{"ono:c":{"id":"81648","content":"RAMOS"},"ono:rank":{"ono:total":"26"},"ono:pos2":{"ono:w":{"ono:total":"2.24"},"ono:v":"17228"},"ono:pos1":{"ono:w":{"ono:total":"2.29"},"ono:v":"17618"}},"link":{"href":"https://www.idescat.cat/cognoms/?geo=3&id=81648","type":"text/html"},"id":"tag:idescat.cat,2010:cognoms/81648","title":"RAMOS","updated":"2020-10-30T11:00:00+00:00","content":{"xml:lang":"ca","content":"Com a primer cognom: 17.618 persones; com a segon cognom: 17.228 persones"}},{"ono:f":{"ono:c":{"id":"162883","content":"MORALES"},"ono:rank":{"ono:total":"27"},"ono:pos2":{"ono:w":{"ono:total":"2.23"},"ono:v":"17185"},"ono:pos1":{"ono:w":{"ono:total":"2.24"},"ono:v":"17222"}},"link":{"href":"https://www.idescat.cat/cognoms/?geo=3&id=162883","type":"text/html"},"id":"tag:idescat.cat,2010:cognoms/162883","title":"MORALES","updated":"2020-10-30T11:00:00+00:00","content":{"xml:lang":"ca","content":"Com a primer cognom: 17.222 persones; com a segon cognom: 17.185 persones"}},{"ono:f":{"ono:c":{"id":"162967","content":"VILA"},"ono:rank":{"ono:total":"28"},"ono:pos2":{"ono:w":{"ono:total":"2.13"},"ono:v":"16418"},"ono:pos1":{"ono:w":{"ono:total":"2.26"},"ono:v":"17362"}},"link":{"href":"https://www.idescat.cat/cognoms/?geo=3&id=162967","type":"text/html"},"id":"tag:idescat.cat,2010:cognoms/162967","title":"VILA","updated":"2020-10-30T11:00:00+00:00","content":{"xml:lang":"ca","content":"Com a primer cognom: 17.362 persones; com a segon cognom: 16.418 persones"}},{"ono:f":{"ono:c":{"id":"40956","content":"ORTIZ"},"ono:rank":{"ono:total":"29"},"ono:pos2":{"ono:w":{"ono:total":"2.20"},"ono:v":"16927"},"ono:pos1":{"ono:w":{"ono:total":"2.15"},"ono:v":"16527"}},"link":{"href":"https://www.idescat.cat/cognoms/?geo=3&id=40956","type":"text/html"},"id":"tag:idescat.cat,2010:cognoms/40956","title":"ORTIZ","updated":"2020-10-30T11:00:00+00:00","content":{"xml:lang":"ca","content":"Com a primer cognom: 16.527 persones; com a segon cognom: 16.927 persones"}},{"ono:f":{"ono:c":{"id":"125998","content":"MARIN"},"ono:rank":{"ono:total":"30"},"ono:pos2":{"ono:w":{"ono:total":"2.10"},"ono:v":"16160"},"ono:pos1":{"ono:w":{"ono:total":"2.17"},"ono:v":"16676"}},"link":{"href":"https://www.idescat.cat/cognoms/?geo=3&id=125998","type":"text/html"},"id":"tag:idescat.cat,2010:cognoms/125998","title":"MARIN","updated":"2020-10-30T11:00:00+00:00","content":{"xml:lang":"ca","content":"Com a primer cognom: 16.676 persones; com a segon cognom: 16.160 persones"}},{"ono:f":{"ono:c":{"id":"40870","content":"VIDAL"},"ono:rank":{"ono:total":"31"},"ono:pos2":{"ono:w":{"ono:total":"2.09"},"ono:v":"16064"},"ono:pos1":{"ono:w":{"ono:total":"2.13"},"ono:v":"16380"}},"link":{"href":"https://www.idescat.cat/cognoms/?geo=3&id=40870","type":"text/html"},"id":"tag:idescat.cat,2010:cognoms/40870","title":"VIDAL","updated":"2020-10-30T11:00:00+00:00","content":{"xml:lang":"ca","content":"Com a primer cognom: 16.380 persones; com a segon cognom: 16.064 persones"}},{"ono:f":{"ono:c":{"id":"295742","content":"ORTEGA"},"ono:rank":{"ono:total":"32"},"ono:pos2":{"ono:w":{"ono:total":"2.05"},"ono:v":"15736"},"ono:pos1":{"ono:w":{"ono:total":"2.03"},"ono:v":"15650"}},"link":{"href":"https://www.idescat.cat/cognoms/?geo=3&id=295742","type":"text/html"},"id":"tag:idescat.cat,2010:cognoms/295742","title":"ORTEGA","updated":"2020-10-30T11:00:00+00:00","content":{"xml:lang":"ca","content":"Com a primer cognom: 15.650 persones; com a segon cognom: 15.736 persones"}},{"ono:f":{"ono:c":{"id":"126059","content":"GIMENEZ"},"ono:rank":{"ono:total":"33"},"ono:pos2":{"ono:w":{"ono:total":"2.06"},"ono:v":"15871"},"ono:pos1":{"ono:w":{"ono:total":"1.95"},"ono:v":"15019"}},"link":{"href":"https://www.idescat.cat/cognoms/?geo=3&id=126059","type":"text/html"},"id":"tag:idescat.cat,2010:cognoms/126059","title":"GIMENEZ","updated":"2020-10-30T11:00:00+00:00","content":{"xml:lang":"ca","content":"Com a primer cognom: 15.019 persones; com a segon cognom: 15.871 persones"}},{"ono:f":{"ono:c":{"id":"81595","content":"ALONSO"},"ono:rank":{"ono:total":"34"},"ono:pos2":{"ono:w":{"ono:total":"1.97"},"ono:v":"15187"},"ono:pos1":{"ono:w":{"ono:total":"1.98"},"ono:v":"15264"}},"link":{"href":"https://www.idescat.cat/cognoms/?geo=3&id=81595","type":"text/html"},"id":"tag:idescat.cat,2010:cognoms/81595","title":"ALONSO","updated":"2020-10-30T11:00:00+00:00","content":{"xml:lang":"ca","content":"Com a primer cognom: 15.264 persones; com a segon cognom: 15.187 persones"}},{"ono:f":{"ono:c":{"id":"204261","content":"SERRA"},"ono:rank":{"ono:total":"35"},"ono:pos2":{"ono:w":{"ono:total":"1.89"},"ono:v":"14572"},"ono:pos1":{"ono:w":{"ono:total":"2.05"},"ono:v":"15795"}},"link":{"href":"https://www.idescat.cat/cognoms/?geo=3&id=204261","type":"text/html"},"id":"tag:idescat.cat,2010:cognoms/204261","title":"SERRA","updated":"2020-10-30T11:00:00+00:00","content":{"xml:lang":"ca","content":"Com a primer cognom: 15.795 persones; com a segon cognom: 14.572 persones"}},{"ono:f":{"ono:c":{"id":"285464","content":"DOMINGUEZ"},"ono:rank":{"ono:total":"36"},"ono:pos2":{"ono:w":{"ono:total":"1.99"},"ono:v":"15296"},"ono:pos1":{"ono:w":{"ono:total":"1.95"},"ono:v":"14978"}},"link":{"href":"https://www.idescat.cat/cognoms/?geo=3&id=285464","type":"text/html"},"id":"tag:idescat.cat,2010:cognoms/285464","title":"DOMINGUEZ","updated":"2020-10-30T11:00:00+00:00","content":{"xml:lang":"ca","content":"Com a primer cognom: 14.978 persones; com a segon cognom: 15.296 persones"}},{"ono:f":{"ono:c":{"id":"40948","content":"MARTI"},"ono:rank":{"ono:total":"37"},"ono:pos2":{"ono:w":{"ono:total":"1.90"},"ono:v":"14603"},"ono:pos1":{"ono:w":{"ono:total":"2.02"},"ono:v":"15579"}},"link":{"href":"https://www.idescat.cat/cognoms/?geo=3&id=40948","type":"text/html"},"id":"tag:idescat.cat,2010:cognoms/40948","title":"MARTI","updated":"2020-10-30T11:00:00+00:00","content":{"xml:lang":"ca","content":"Com a primer cognom: 15.579 persones; com a segon cognom: 14.603 persones"}},{"ono:f":{"ono:c":{"id":"169682","content":"FERRER"},"ono:rank":{"ono:total":"38"},"ono:pos2":{"ono:w":{"ono:total":"1.89"},"ono:v":"14519"},"ono:pos1":{"ono:w":{"ono:total":"1.98"},"ono:v":"15207"}},"link":{"href":"https://www.idescat.cat/cognoms/?geo=3&id=169682","type":"text/html"},"id":"tag:idescat.cat,2010:cognoms/169682","title":"FERRER","updated":"2020-10-30T11:00:00+00:00","content":{"xml:lang":"ca","content":"Com a primer cognom: 15.207 persones; com a segon cognom: 14.519 persones"}},{"ono:f":{"ono:c":{"id":"245188","content":"RUBIO"},"ono:rank":{"ono:total":"39"},"ono:pos2":{"ono:w":{"ono:total":"1.86"},"ono:v":"14285"},"ono:pos1":{"ono:w":{"ono:total":"1.93"},"ono:v":"14817"}},"link":{"href":"https://www.idescat.cat/cognoms/?geo=3&id=245188","type":"text/html"},"id":"tag:idescat.cat,2010:cognoms/245188","title":"RUBIO","updated":"2020-10-30T11:00:00+00:00","content":{"xml:lang":"ca","content":"Com a primer cognom: 14.817 persones; com a segon cognom: 14.285 persones"}},{"ono:f":{"ono:c":{"id":"204525","content":"DELGADO"},"ono:rank":{"ono:total":"40"},"ono:pos2":{"ono:w":{"ono:total":"1.89"},"ono:v":"14518"},"ono:pos1":{"ono:w":{"ono:total":"1.88"},"ono:v":"14434"}},"link":{"href":"https://www.idescat.cat/cognoms/?geo=3&id=204525","type":"text/html"},"id":"tag:idescat.cat,2010:cognoms/204525","title":"DELGADO","updated":"2020-10-30T11:00:00+00:00","content":{"xml:lang":"ca","content":"Com a primer cognom: 14.434 persones; com a segon cognom: 14.518 persones"}},{"ono:f":{"ono:c":{"id":"125978","content":"CASTILLO"},"ono:rank":{"ono:total":"41"},"ono:pos2":{"ono:w":{"ono:total":"1.89"},"ono:v":"14533"},"ono:pos1":{"ono:w":{"ono:total":"1.86"},"ono:v":"14276"}},"link":{"href":"https://www.idescat.cat/cognoms/?geo=3&id=125978","type":"text/html"},"id":"tag:idescat.cat,2010:cognoms/125978","title":"CASTILLO","updated":"2020-10-30T11:00:00+00:00","content":{"xml:lang":"ca","content":"Com a primer cognom: 14.276 persones; com a segon cognom: 14.533 persones"}},{"ono:f":{"ono:c":{"id":"169764","content":"FLORES"},"ono:rank":{"ono:total":"42"},"ono:pos2":{"ono:w":{"ono:total":"1.90"},"ono:v":"14602"},"ono:pos1":{"ono:w":{"ono:total":"1.83"},"ono:v":"14105"}},"link":{"href":"https://www.idescat.cat/cognoms/?geo=3&id=169764","type":"text/html"},"id":"tag:idescat.cat,2010:cognoms/169764","title":"FLORES","updated":"2020-10-30T11:00:00+00:00","content":{"xml:lang":"ca","content":"Com a primer cognom: 14.105 persones; com a segon cognom: 14.602 persones"}},{"ono:f":{"ono:c":{"id":"163028","content":"SOLER"},"ono:rank":{"ono:total":"43"},"ono:pos2":{"ono:w":{"ono:total":"1.84"},"ono:v":"14192"},"ono:pos1":{"ono:w":{"ono:total":"1.88"},"ono:v":"14488"}},"link":{"href":"https://www.idescat.cat/cognoms/?geo=3&id=163028","type":"text/html"},"id":"tag:idescat.cat,2010:cognoms/163028","title":"SOLER","updated":"2020-10-30T11:00:00+00:00","content":{"xml:lang":"ca","content":"Com a primer cognom: 14.488 persones; com a segon cognom: 14.192 persones"}},{"ono:f":{"ono:c":{"id":"1253","content":"CASTRO"},"ono:rank":{"ono:total":"44"},"ono:pos2":{"ono:w":{"ono:total":"1.85"},"ono:v":"14271"},"ono:pos1":{"ono:w":{"ono:total":"1.86"},"ono:v":"14329"}},"link":{"href":"https://www.idescat.cat/cognoms/?geo=3&id=1253","type":"text/html"},"id":"tag:idescat.cat,2010:cognoms/1253","title":"CASTRO","updated":"2020-10-30T11:00:00+00:00","content":{"xml:lang":"ca","content":"Com a primer cognom: 14.329 persones; com a segon cognom: 14.271 persones"}},{"ono:f":{"ono:c":{"id":"1257","content":"CORTES"},"ono:rank":{"ono:total":"45"},"ono:pos2":{"ono:w":{"ono:total":"1.81"},"ono:v":"13892"},"ono:pos1":{"ono:w":{"ono:total":"1.86"},"ono:v":"14331"}},"link":{"href":"https://www.idescat.cat/cognoms/?geo=3&id=1257","type":"text/html"},"id":"tag:idescat.cat,2010:cognoms/1257","title":"CORTES","updated":"2020-10-30T11:00:00+00:00","content":{"xml:lang":"ca","content":"Com a primer cognom: 14.331 persones; com a segon cognom: 13.892 persones"}},{"ono:f":{"ono:c":{"id":"204379","content":"VAZQUEZ"},"ono:rank":{"ono:total":"46"},"ono:pos2":{"ono:w":{"ono:total":"1.77"},"ono:v":"13617"},"ono:pos1":{"ono:w":{"ono:total":"1.80"},"ono:v":"13865"}},"link":{"href":"https://www.idescat.cat/cognoms/?geo=3&id=204379","type":"text/html"},"id":"tag:idescat.cat,2010:cognoms/204379","title":"VAZQUEZ","updated":"2020-10-30T11:00:00+00:00","content":{"xml:lang":"ca","content":"Com a primer cognom: 13.865 persones; com a segon cognom: 13.617 persones"}},{"ono:f":{"ono:c":{"id":"251390","content":"PUIG"},"ono:rank":{"ono:total":"47"},"ono:pos2":{"ono:w":{"ono:total":"1.66"},"ono:v":"12780"},"ono:pos1":{"ono:w":{"ono:total":"1.78"},"ono:v":"13696"}},"link":{"href":"https://www.idescat.cat/cognoms/?geo=3&id=251390","type":"text/html"},"id":"tag:idescat.cat,2010:cognoms/251390","title":"PUIG","updated":"2020-10-30T11:00:00+00:00","content":{"xml:lang":"ca","content":"Com a primer cognom: 13.696 persones; com a segon cognom: 12.780 persones"}},{"ono:f":{"ono:c":{"id":"162937","content":"ROCA"},"ono:rank":{"ono:total":"48"},"ono:pos2":{"ono:w":{"ono:total":"1.64"},"ono:v":"12650"},"ono:pos1":{"ono:w":{"ono:total":"1.68"},"ono:v":"12914"}},"link":{"href":"https://www.idescat.cat/cognoms/?geo=3&id=162937","type":"text/html"},"id":"tag:idescat.cat,2010:cognoms/162937","title":"ROCA","updated":"2020-10-30T11:00:00+00:00","content":{"xml:lang":"ca","content":"Com a primer cognom: 12.914 persones; com a segon cognom: 12.650 persones"}},{"ono:f":{"ono:c":{"id":"169701","content":"MEDINA"},"ono:rank":{"ono:total":"49"},"ono:pos2":{"ono:w":{"ono:total":"1.66"},"ono:v":"12781"},"ono:pos1":{"ono:w":{"ono:total":"1.62"},"ono:v":"12472"}},"link":{"href":"https://www.idescat.cat/cognoms/?geo=3&id=169701","type":"text/html"},"id":"tag:idescat.cat,2010:cognoms/169701","title":"MEDINA","updated":"2020-10-30T11:00:00+00:00","content":{"xml:lang":"ca","content":"Com a primer cognom: 12.472 persones; com a segon cognom: 12.781 persones"}},{"ono:f":{"ono:c":{"id":"81612","content":"CANO"},"ono:rank":{"ono:total":"50"},"ono:pos2":{"ono:w":{"ono:total":"1.59"},"ono:v":"12236"},"ono:pos1":{"ono:w":{"ono:total":"1.58"},"ono:v":"12160"}},"link":{"href":"https://www.idescat.cat/cognoms/?geo=3&id=81612","type":"text/html"},"id":"tag:idescat.cat,2010:cognoms/81612","title":"CANO","updated":"2020-10-30T11:00:00+00:00","content":{"xml:lang":"ca","content":"Com a primer cognom: 12.160 persones; com a segon cognom: 12.236 persones"}},
+      {"ono:f":{"ono:c":{"id":"169689","content":"GUERRERO"},"ono:rank":{"ono:total":"51"},"ono:pos2":{"ono:w":{"ono:total":"1.51"},"ono:v":"11622"},"ono:pos1":{"ono:w":{"ono:total":"1.53"},"ono:v":"11781"}},"link":{"href":"https://www.idescat.cat/cognoms/?geo=3&id=169689","type":"text/html"},"id":"tag:idescat.cat,2010:cognoms/169689","title":"GUERRERO","updated":"2020-10-30T11:00:00+00:00","content":{"xml:lang":"ca","content":"Com a primer cognom: 11.781 persones; com a segon cognom: 11.622 persones"}},{"ono:f":{"ono:c":{"id":"251357","content":"CRUZ"},"ono:rank":{"ono:total":"52"},"ono:pos2":{"ono:w":{"ono:total":"1.51"},"ono:v":"11594"},"ono:pos1":{"ono:w":{"ono:total":"1.53"},"ono:v":"11740"}},"link":{"href":"https://www.idescat.cat/cognoms/?geo=3&id=251357","type":"text/html"},"id":"tag:idescat.cat,2010:cognoms/251357","title":"CRUZ","updated":"2020-10-30T11:00:00+00:00","content":{"xml:lang":"ca","content":"Com a primer cognom: 11.740 persones; com a segon cognom: 11.594 persones"}},{"ono:f":{"ono:c":{"id":"81607","content":"BLANCO"},"ono:rank":{"ono:total":"53"},"ono:pos2":{"ono:w":{"ono:total":"1.46"},"ono:v":"11249"},"ono:pos1":{"ono:w":{"ono:total":"1.49"},"ono:v":"11483"}},"link":{"href":"https://www.idescat.cat/cognoms/?geo=3&id=81607","type":"text/html"},"id":"tag:idescat.cat,2010:cognoms/81607","title":"BLANCO","updated":"2020-10-30T11:00:00+00:00","content":{"xml:lang":"ca","content":"Com a primer cognom: 11.483 persones; com a segon cognom: 11.249 persones"}},{"ono:f":{"ono:c":{"id":"81640","content":"NUÑEZ"},"ono:rank":{"ono:total":"54"},"ono:pos2":{"ono:w":{"ono:total":"1.45"},"ono:v":"11164"},"ono:pos1":{"ono:w":{"ono:total":"1.48"},"ono:v":"11377"}},"link":{"href":"https://www.idescat.cat/cognoms/?geo=3&id=81640","type":"text/html"},"id":"tag:idescat.cat,2010:cognoms/81640","title":"NUÑEZ","updated":"2020-10-30T11:00:00+00:00","content":{"xml:lang":"ca","content":"Com a primer cognom: 11.377 persones; com a segon cognom: 11.164 persones"}},{"ono:f":{"ono:c":{"id":"81592","content":"AGUILAR"},"ono:rank":{"ono:total":"55"},"ono:pos2":{"ono:w":{"ono:total":"1.42"},"ono:v":"10950"},"ono:pos1":{"ono:w":{"ono:total":"1.46"},"ono:v":"11222"}},"link":{"href":"https://www.idescat.cat/cognoms/?geo=3&id=81592","type":"text/html"},"id":"tag:idescat.cat,2010:cognoms/81592","title":"AGUILAR","updated":"2020-10-30T11:00:00+00:00","content":{"xml:lang":"ca","content":"Com a primer cognom: 11.222 persones; com a segon cognom: 10.950 persones"}},{"ono:f":{"ono:c":{"id":"81654","content":"SOLE"},"ono:rank":{"ono:total":"56"},"ono:pos2":{"ono:w":{"ono:total":"1.42"},"ono:v":"10909"},"ono:pos1":{"ono:w":{"ono:total":"1.43"},"ono:v":"11002"}},"link":{"href":"https://www.idescat.cat/cognoms/?geo=3&id=81654","type":"text/html"},"id":"tag:idescat.cat,2010:cognoms/81654","title":"SOLE","updated":"2020-10-30T11:00:00+00:00","content":{"xml:lang":"ca","content":"Com a primer cognom: 11.002 persones; com a segon cognom: 10.909 persones"}},{"ono:f":{"ono:c":{"id":"204542","content":"LOZANO"},"ono:rank":{"ono:total":"57"},"ono:pos2":{"ono:w":{"ono:total":"1.42"},"ono:v":"10894"},"ono:pos1":{"ono:w":{"ono:total":"1.42"},"ono:v":"10944"}},"link":{"href":"https://www.idescat.cat/cognoms/?geo=3&id=204542","type":"text/html"},"id":"tag:idescat.cat,2010:cognoms/204542","title":"LOZANO","updated":"2020-10-30T11:00:00+00:00","content":{"xml:lang":"ca","content":"Com a primer cognom: 10.944 persones; com a segon cognom: 10.894 persones"}},{"ono:f":{"ono:c":{"id":"204528","content":"DURAN"},"ono:rank":{"ono:total":"58"},"ono:pos2":{"ono:w":{"ono:total":"1.38"},"ono:v":"10621"},"ono:pos1":{"ono:w":{"ono:total":"1.45"},"ono:v":"11136"}},"link":{"href":"https://www.idescat.cat/cognoms/?geo=3&id=204528","type":"text/html"},"id":"tag:idescat.cat,2010:cognoms/204528","title":"DURAN","updated":"2020-10-30T11:00:00+00:00","content":{"xml:lang":"ca","content":"Com a primer cognom: 11.136 persones; com a segon cognom: 10.621 persones"}},{"ono:f":{"ono:c":{"id":"163091","content":"PUJOL"},"ono:rank":{"ono:total":"59"},"ono:pos2":{"ono:w":{"ono:total":"1.35"},"ono:v":"10368"},"ono:pos1":{"ono:w":{"ono:total":"1.38"},"ono:v":"10618"}},"link":{"href":"https://www.idescat.cat/cognoms/?geo=3&id=163091","type":"text/html"},"id":"tag:idescat.cat,2010:cognoms/163091","title":"PUJOL","updated":"2020-10-30T11:00:00+00:00","content":{"xml:lang":"ca","content":"Com a primer cognom: 10.618 persones; com a segon cognom: 10.368 persones"}},{"ono:f":{"ono:c":{"id":"244944","content":"FONT"},"ono:rank":{"ono:total":"60"},"ono:pos2":{"ono:w":{"ono:total":"1.28"},"ono:v":"9856"},"ono:pos1":{"ono:w":{"ono:total":"1.40"},"ono:v":"10808"}},"link":{"href":"https://www.idescat.cat/cognoms/?geo=3&id=244944","type":"text/html"},"id":"tag:idescat.cat,2010:cognoms/244944","title":"FONT","updated":"2020-10-30T11:00:00+00:00","content":{"xml:lang":"ca","content":"Com a primer cognom: 10.808 persones; com a segon cognom: 9.856 persones"}},{"ono:f":{"ono:c":{"id":"169700","content":"MARQUEZ"},"ono:rank":{"ono:total":"61"},"ono:pos2":{"ono:w":{"ono:total":"1.29"},"ono:v":"9942"},"ono:pos1":{"ono:w":{"ono:total":"1.30"},"ono:v":"10007"}},"link":{"href":"https://www.idescat.cat/cognoms/?geo=3&id=169700","type":"text/html"},"id":"tag:idescat.cat,2010:cognoms/169700","title":"MARQUEZ","updated":"2020-10-30T11:00:00+00:00","content":{"xml:lang":"ca","content":"Com a primer cognom: 10.007 persones; com a segon cognom: 9.942 persones"}},{"ono:f":{"ono:c":{"id":"295712","content":"GARRIDO"},"ono:rank":{"ono:total":"62"},"ono:pos2":{"ono:w":{"ono:total":"1.30"},"ono:v":"10026"},"ono:pos1":{"ono:w":{"ono:total":"1.28"},"ono:v":"9883"}},"link":{"href":"https://www.idescat.cat/cognoms/?geo=3&id=295712","type":"text/html"},"id":"tag:idescat.cat,2010:cognoms/295712","title":"GARRIDO","updated":"2020-10-30T11:00:00+00:00","content":{"xml:lang":"ca","content":"Com a primer cognom: 9.883 persones; com a segon cognom: 10.026 persones"}},{"ono:f":{"ono:c":{"id":"292100","content":"PASCUAL"},"ono:rank":{"ono:total":"63"},"ono:pos2":{"ono:w":{"ono:total":"1.27"},"ono:v":"9737"},"ono:pos1":{"ono:w":{"ono:total":"1.31"},"ono:v":"10080"}},"link":{"href":"https://www.idescat.cat/cognoms/?geo=3&id=292100","type":"text/html"},"id":"tag:idescat.cat,2010:cognoms/292100","title":"PASCUAL","updated":"2020-10-30T11:00:00+00:00","content":{"xml:lang":"ca","content":"Com a primer cognom: 10.080 persones; com a segon cognom: 9.737 persones"}},{"ono:f":{"ono:c":{"id":"81649","content":"REYES"},"ono:rank":{"ono:total":"64"},"ono:pos2":{"ono:w":{"ono:total":"1.26"},"ono:v":"9670"},"ono:pos1":{"ono:w":{"ono:total":"1.28"},"ono:v":"9834"}},"link":{"href":"https://www.idescat.cat/cognoms/?geo=3&id=81649","type":"text/html"},"id":"tag:idescat.cat,2010:cognoms/81649","title":"REYES","updated":"2020-10-30T11:00:00+00:00","content":{"xml:lang":"ca","content":"Com a primer cognom: 9.834 persones; com a segon cognom: 9.670 persones"}},{"ono:f":{"ono:c":{"id":"295733","content":"MENDEZ"},"ono:rank":{"ono:total":"65"},"ono:pos2":{"ono:w":{"ono:total":"1.27"},"ono:v":"9736"},"ono:pos1":{"ono:w":{"ono:total":"1.26"},"ono:v":"9688"}},"link":{"href":"https://www.idescat.cat/cognoms/?geo=3&id=295733","type":"text/html"},"id":"tag:idescat.cat,2010:cognoms/295733","title":"MENDEZ","updated":"2020-10-30T11:00:00+00:00","content":{"xml:lang":"ca","content":"Com a primer cognom: 9.688 persones; com a segon cognom: 9.736 persones"}},{"ono:f":{"ono:c":{"id":"204522","content":"COSTA"},"ono:rank":{"ono:total":"66"},"ono:pos2":{"ono:w":{"ono:total":"1.22"},"ono:v":"9365"},"ono:pos1":{"ono:w":{"ono:total":"1.30"},"ono:v":"10016"}},"link":{"href":"https://www.idescat.cat/cognoms/?geo=3&id=204522","type":"text/html"},"id":"tag:idescat.cat,2010:cognoms/204522","title":"COSTA","updated":"2020-10-30T11:00:00+00:00","content":{"xml:lang":"ca","content":"Com a primer cognom: 10.016 persones; com a segon cognom: 9.365 persones"}},{"ono:f":{"ono:c":{"id":"204518","content":"CASAS"},"ono:rank":{"ono:total":"67"},"ono:pos2":{"ono:w":{"ono:total":"1.17"},"ono:v":"8983"},"ono:pos1":{"ono:w":{"ono:total":"1.28"},"ono:v":"9814"}},"link":{"href":"https://www.idescat.cat/cognoms/?geo=3&id=204518","type":"text/html"},"id":"tag:idescat.cat,2010:cognoms/204518","title":"CASAS","updated":"2020-10-30T11:00:00+00:00","content":{"xml:lang":"ca","content":"Com a primer cognom: 9.814 persones; com a segon cognom: 8.983 persones"}},{"ono:f":{"ono:c":{"id":"40920","content":"CARMONA"},"ono:rank":{"ono:total":"68"},"ono:pos2":{"ono:w":{"ono:total":"1.22"},"ono:v":"9365"},"ono:pos1":{"ono:w":{"ono:total":"1.21"},"ono:v":"9312"}},"link":{"href":"https://www.idescat.cat/cognoms/?geo=3&id=40920","type":"text/html"},"id":"tag:idescat.cat,2010:cognoms/40920","title":"CARMONA","updated":"2020-10-30T11:00:00+00:00","content":{"xml:lang":"ca","content":"Com a primer cognom: 9.312 persones; com a segon cognom: 9.365 persones"}},{"ono:f":{"ono:c":{"id":"204210","content":"SEGURA"},"ono:rank":{"ono:total":"69"},"ono:pos2":{"ono:w":{"ono:total":"1.18"},"ono:v":"9079"},"ono:pos1":{"ono:w":{"ono:total":"1.23"},"ono:v":"9489"}},"link":{"href":"https://www.idescat.cat/cognoms/?geo=3&id=204210","type":"text/html"},"id":"tag:idescat.cat,2010:cognoms/204210","title":"SEGURA","updated":"2020-10-30T11:00:00+00:00","content":{"xml:lang":"ca","content":"Com a primer cognom: 9.489 persones; com a segon cognom: 9.079 persones"}},{"ono:f":{"ono:c":{"id":"169817","content":"FUENTES"},"ono:rank":{"ono:total":"70"},"ono:pos2":{"ono:w":{"ono:total":"1.19"},"ono:v":"9149"},"ono:pos1":{"ono:w":{"ono:total":"1.20"},"ono:v":"9257"}},"link":{"href":"https://www.idescat.cat/cognoms/?geo=3&id=169817","type":"text/html"},"id":"tag:idescat.cat,2010:cognoms/169817","title":"FUENTES","updated":"2020-10-30T11:00:00+00:00","content":{"xml:lang":"ca","content":"Com a primer cognom: 9.257 persones; com a segon cognom: 9.149 persones"}},{"ono:f":{"ono:c":{"id":"296685","content":"HERRERA"},"ono:rank":{"ono:total":"71"},"ono:pos2":{"ono:w":{"ono:total":"1.15"},"ono:v":"8817"},"ono:pos1":{"ono:w":{"ono:total":"1.16"},"ono:v":"8925"}},"link":{"href":"https://www.idescat.cat/cognoms/?geo=3&id=296685","type":"text/html"},"id":"tag:idescat.cat,2010:cognoms/296685","title":"HERRERA","updated":"2020-10-30T11:00:00+00:00","content":{"xml:lang":"ca","content":"Com a primer cognom: 8.925 persones; com a segon cognom: 8.817 persones"}},{"ono:f":{"ono:c":{"id":"162893","content":"LEON"},"ono:rank":{"ono:total":"72"},"ono:pos2":{"ono:w":{"ono:total":"1.17"},"ono:v":"9014"},"ono:pos1":{"ono:w":{"ono:total":"1.13"},"ono:v":"8719"}},"link":{"href":"https://www.idescat.cat/cognoms/?geo=3&id=162893","type":"text/html"},"id":"tag:idescat.cat,2010:cognoms/162893","title":"LEON","updated":"2020-10-30T11:00:00+00:00","content":{"xml:lang":"ca","content":"Com a primer cognom: 8.719 persones; com a segon cognom: 9.014 persones"}},{"ono:f":{"ono:c":{"id":"40933","content":"GALLEGO"},"ono:rank":{"ono:total":"73"},"ono:pos2":{"ono:w":{"ono:total":"1.13"},"ono:v":"8711"},"ono:pos1":{"ono:w":{"ono:total":"1.17"},"ono:v":"9013"}},"link":{"href":"https://www.idescat.cat/cognoms/?geo=3&id=40933","type":"text/html"},"id":"tag:idescat.cat,2010:cognoms/40933","title":"GALLEGO","updated":"2020-10-30T11:00:00+00:00","content":{"xml:lang":"ca","content":"Com a primer cognom: 9.013 persones; com a segon cognom: 8.711 persones"}},{"ono:f":{"ono:c":{"id":"295699","content":"CAMPOS"},"ono:rank":{"ono:total":"74"},"ono:pos2":{"ono:w":{"ono:total":"1.14"},"ono:v":"8787"},"ono:pos1":{"ono:w":{"ono:total":"1.14"},"ono:v":"8785"}},"link":{"href":"https://www.idescat.cat/cognoms/?geo=3&id=295699","type":"text/html"},"id":"tag:idescat.cat,2010:cognoms/295699","title":"CAMPOS","updated":"2020-10-30T11:00:00+00:00","content":{"xml:lang":"ca","content":"Com a primer cognom: 8.785 persones; com a segon cognom: 8.787 persones"}},{"ono:f":{"ono:c":{"id":"204495","content":"CABALLERO"},"ono:rank":{"ono:total":"75"},"ono:pos2":{"ono:w":{"ono:total":"1.14"},"ono:v":"8754"},"ono:pos1":{"ono:w":{"ono:total":"1.13"},"ono:v":"8721"}},"link":{"href":"https://www.idescat.cat/cognoms/?geo=3&id=204495","type":"text/html"},"id":"tag:idescat.cat,2010:cognoms/204495","title":"CABALLERO","updated":"2020-10-30T11:00:00+00:00","content":{"xml:lang":"ca","content":"Com a primer cognom: 8.721 persones; com a segon cognom: 8.754 persones"}},
+      {"ono:f":{"ono:c":{"id":"40967","content":"SANZ"},"ono:rank":{"ono:total":"76"},"ono:pos2":{"ono:w":{"ono:total":"1.12"},"ono:v":"8581"},"ono:pos1":{"ono:w":{"ono:total":"1.15"},"ono:v":"8877"}},"link":{"href":"https://www.idescat.cat/cognoms/?geo=3&id=40967","type":"text/html"},"id":"tag:idescat.cat,2010:cognoms/40967","title":"SANZ","updated":"2020-10-30T11:00:00+00:00","content":{"xml:lang":"ca","content":"Com a primer cognom: 8.877 persones; com a segon cognom: 8.581 persones"}},{"ono:f":{"ono:c":{"id":"295701","content":"CARRASCO"},"ono:rank":{"ono:total":"77"},"ono:pos2":{"ono:w":{"ono:total":"1.10"},"ono:v":"8439"},"ono:pos1":{"ono:w":{"ono:total":"1.16"},"ono:v":"8926"}},"link":{"href":"https://www.idescat.cat/cognoms/?geo=3&id=295701","type":"text/html"},"id":"tag:idescat.cat,2010:cognoms/295701","title":"CARRASCO","updated":"2020-10-30T11:00:00+00:00","content":{"xml:lang":"ca","content":"Com a primer cognom: 8.926 persones; com a segon cognom: 8.439 persones"}},{"ono:f":{"ono:c":{"id":"204289","content":"ROVIRA"},"ono:rank":{"ono:total":"78"},"ono:pos2":{"ono:w":{"ono:total":"1.08"},"ono:v":"8326"},"ono:pos1":{"ono:w":{"ono:total":"1.17"},"ono:v":"8998"}},"link":{"href":"https://www.idescat.cat/cognoms/?geo=3&id=204289","type":"text/html"},"id":"tag:idescat.cat,2010:cognoms/204289","title":"ROVIRA","updated":"2020-10-30T11:00:00+00:00","content":{"xml:lang":"ca","content":"Com a primer cognom: 8.998 persones; com a segon cognom: 8.326 persones"}},{"ono:f":{"ono:c":{"id":"81745","content":"PONS"},"ono:rank":{"ono:total":"79"},"ono:pos2":{"ono:w":{"ono:total":"1.08"},"ono:v":"8301"},"ono:pos1":{"ono:w":{"ono:total":"1.15"},"ono:v":"8824"}},"link":{"href":"https://www.idescat.cat/cognoms/?geo=3&id=81745","type":"text/html"},"id":"tag:idescat.cat,2010:cognoms/81745","title":"PONS","updated":"2020-10-30T11:00:00+00:00","content":{"xml:lang":"ca","content":"Com a primer cognom: 8.824 persones; com a segon cognom: 8.301 persones"}},{"ono:f":{"ono:c":{"id":"296620","content":"SALA"},"ono:rank":{"ono:total":"79"},"ono:pos2":{"ono:w":{"ono:total":"1.08"},"ono:v":"8278"},"ono:pos1":{"ono:w":{"ono:total":"1.15"},"ono:v":"8847"}},"link":{"href":"https://www.idescat.cat/cognoms/?geo=3&id=296620","type":"text/html"},"id":"tag:idescat.cat,2010:cognoms/296620","title":"SALA","updated":"2020-10-30T11:00:00+00:00","content":{"xml:lang":"ca","content":"Com a primer cognom: 8.847 persones; com a segon cognom: 8.278 persones"}},{"ono:f":{"ono:c":{"id":"40966","content":"SANTOS"},"ono:rank":{"ono:total":"81"},"ono:pos2":{"ono:w":{"ono:total":"1.10"},"ono:v":"8498"},"ono:pos1":{"ono:w":{"ono:total":"1.10"},"ono:v":"8452"}},"link":{"href":"https://www.idescat.cat/cognoms/?geo=3&id=40966","type":"text/html"},"id":"tag:idescat.cat,2010:cognoms/40966","title":"SANTOS","updated":"2020-10-30T11:00:00+00:00","content":{"xml:lang":"ca","content":"Com a primer cognom: 8.452 persones; com a segon cognom: 8.498 persones"}},{"ono:f":{"ono:c":{"id":"244933","content":"HIDALGO"},"ono:rank":{"ono:total":"82"},"ono:pos2":{"ono:w":{"ono:total":"1.10"},"ono:v":"8464"},"ono:pos1":{"ono:w":{"ono:total":"1.09"},"ono:v":"8416"}},"link":{"href":"https://www.idescat.cat/cognoms/?geo=3&id=244933","type":"text/html"},"id":"tag:idescat.cat,2010:cognoms/244933","title":"HIDALGO","updated":"2020-10-30T11:00:00+00:00","content":{"xml:lang":"ca","content":"Com a primer cognom: 8.416 persones; com a segon cognom: 8.464 persones"}},{"ono:f":{"ono:c":{"id":"204636","content":"PEÑA"},"ono:rank":{"ono:total":"83"},"ono:pos2":{"ono:w":{"ono:total":"1.11"},"ono:v":"8518"},"ono:pos1":{"ono:w":{"ono:total":"1.09"},"ono:v":"8355"}},"link":{"href":"https://www.idescat.cat/cognoms/?geo=3&id=204636","type":"text/html"},"id":"tag:idescat.cat,2010:cognoms/204636","title":"PEÑA","updated":"2020-10-30T11:00:00+00:00","content":{"xml:lang":"ca","content":"Com a primer cognom: 8.355 persones; com a segon cognom: 8.518 persones"}},{"ono:f":{"ono:c":{"id":"1374","content":"MORA"},"ono:rank":{"ono:total":"84"},"ono:pos2":{"ono:w":{"ono:total":"1.08"},"ono:v":"8301"},"ono:pos1":{"ono:w":{"ono:total":"1.10"},"ono:v":"8486"}},"link":{"href":"https://www.idescat.cat/cognoms/?geo=3&id=1374","type":"text/html"},"id":"tag:idescat.cat,2010:cognoms/1374","title":"MORA","updated":"2020-10-30T11:00:00+00:00","content":{"xml:lang":"ca","content":"Com a primer cognom: 8.486 persones; com a segon cognom: 8.301 persones"}},{"ono:f":{"ono:c":{"id":"41061","content":"VARGAS"},"ono:rank":{"ono:total":"85"},"ono:pos2":{"ono:w":{"ono:total":"1.09"},"ono:v":"8372"},"ono:pos1":{"ono:w":{"ono:total":"1.09"},"ono:v":"8387"}},"link":{"href":"https://www.idescat.cat/cognoms/?geo=3&id=41061","type":"text/html"},"id":"tag:idescat.cat,2010:cognoms/41061","title":"VARGAS","updated":"2020-10-30T11:00:00+00:00","content":{"xml:lang":"ca","content":"Com a primer cognom: 8.387 persones; com a segon cognom: 8.372 persones"}},{"ono:f":{"ono:c":{"id":"162885","content":"BOSCH"},"ono:rank":{"ono:total":"86"},"ono:pos2":{"ono:w":{"ono:total":"1.02"},"ono:v":"7851"},"ono:pos1":{"ono:w":{"ono:total":"1.12"},"ono:v":"8592"}},"link":{"href":"https://www.idescat.cat/cognoms/?geo=3&id=162885","type":"text/html"},"id":"tag:idescat.cat,2010:cognoms/162885","title":"BOSCH","updated":"2020-10-30T11:00:00+00:00","content":{"xml:lang":"ca","content":"Com a primer cognom: 8.592 persones; com a segon cognom: 7.851 persones"}},{"ono:f":{"ono:c":{"id":"40962","content":"ROJAS"},"ono:rank":{"ono:total":"87"},"ono:pos2":{"ono:w":{"ono:total":"1.01"},"ono:v":"7800"},"ono:pos1":{"ono:w":{"ono:total":"1.03"},"ono:v":"7920"}},"link":{"href":"https://www.idescat.cat/cognoms/?geo=3&id=40962","type":"text/html"},"id":"tag:idescat.cat,2010:cognoms/40962","title":"ROJAS","updated":"2020-10-30T11:00:00+00:00","content":{"xml:lang":"ca","content":"Com a primer cognom: 7.920 persones; com a segon cognom: 7.800 persones"}},{"ono:f":{"ono:c":{"id":"41108","content":"MAS"},"ono:rank":{"ono:total":"88"},"ono:pos2":{"ono:w":{"ono:total":"0.98"},"ono:v":"7504"},"ono:pos1":{"ono:w":{"ono:total":"1.07"},"ono:v":"8213"}},"link":{"href":"https://www.idescat.cat/cognoms/?geo=3&id=41108","type":"text/html"},"id":"tag:idescat.cat,2010:cognoms/41108","title":"MAS","updated":"2020-10-30T11:00:00+00:00","content":{"xml:lang":"ca","content":"Com a primer cognom: 8.213 persones; com a segon cognom: 7.504 persones"}},{"ono:f":{"ono:c":{"id":"1378","content":"MOYA"},"ono:rank":{"ono:total":"89"},"ono:pos2":{"ono:w":{"ono:total":"1.01"},"ono:v":"7743"},"ono:pos1":{"ono:w":{"ono:total":"1.03"},"ono:v":"7914"}},"link":{"href":"https://www.idescat.cat/cognoms/?geo=3&id=1378","type":"text/html"},"id":"tag:idescat.cat,2010:cognoms/1378","title":"MOYA","updated":"2020-10-30T11:00:00+00:00","content":{"xml:lang":"ca","content":"Com a primer cognom: 7.914 persones; com a segon cognom: 7.743 persones"}},{"ono:f":{"ono:c":{"id":"204350","content":"SUAREZ"},"ono:rank":{"ono:total":"90"},"ono:pos2":{"ono:w":{"ono:total":"1.00"},"ono:v":"7726"},"ono:pos1":{"ono:w":{"ono:total":"1.03"},"ono:v":"7897"}},"link":{"href":"https://www.idescat.cat/cognoms/?geo=3&id=204350","type":"text/html"},"id":"tag:idescat.cat,2010:cognoms/204350","title":"SUAREZ","updated":"2020-10-30T11:00:00+00:00","content":{"xml:lang":"ca","content":"Com a primer cognom: 7.897 persones; com a segon cognom: 7.726 persones"}},{"ono:f":{"ono:c":{"id":"125974","content":"CABRERA"},"ono:rank":{"ono:total":"91"},"ono:pos2":{"ono:w":{"ono:total":"0.99"},"ono:v":"7655"},"ono:pos1":{"ono:w":{"ono:total":"1.01"},"ono:v":"7802"}},"link":{"href":"https://www.idescat.cat/cognoms/?geo=3&id=125974","type":"text/html"},"id":"tag:idescat.cat,2010:cognoms/125974","title":"CABRERA","updated":"2020-10-30T11:00:00+00:00","content":{"xml:lang":"ca","content":"Com a primer cognom: 7.802 persones; com a segon cognom: 7.655 persones"}},{"ono:f":{"ono:c":{"id":"285874","content":"ROIG"},"ono:rank":{"ono:total":"92"},"ono:pos2":{"ono:w":{"ono:total":"0.97"},"ono:v":"7466"},"ono:pos1":{"ono:w":{"ono:total":"1.04"},"ono:v":"7982"}},"link":{"href":"https://www.idescat.cat/cognoms/?geo=3&id=285874","type":"text/html"},"id":"tag:idescat.cat,2010:cognoms/285874","title":"ROIG","updated":"2020-10-30T11:00:00+00:00","content":{"xml:lang":"ca","content":"Com a primer cognom: 7.982 persones; com a segon cognom: 7.466 persones"}},{"ono:f":{"ono:c":{"id":"1248","content":"CALVO"},"ono:rank":{"ono:total":"93"},"ono:pos2":{"ono:w":{"ono:total":"0.99"},"ono:v":"7625"},"ono:pos1":{"ono:w":{"ono:total":"1.02"},"ono:v":"7814"}},"link":{"href":"https://www.idescat.cat/cognoms/?geo=3&id=1248","type":"text/html"},"id":"tag:idescat.cat,2010:cognoms/1248","title":"CALVO","updated":"2020-10-30T11:00:00+00:00","content":{"xml:lang":"ca","content":"Com a primer cognom: 7.814 persones; com a segon cognom: 7.625 persones"}},{"ono:f":{"ono:c":{"id":"125989","content":"IBAÑEZ"},"ono:rank":{"ono:total":"94"},"ono:pos2":{"ono:w":{"ono:total":"1.00"},"ono:v":"7683"},"ono:pos1":{"ono:w":{"ono:total":"0.98"},"ono:v":"7554"}},"link":{"href":"https://www.idescat.cat/cognoms/?geo=3&id=125989","type":"text/html"},"id":"tag:idescat.cat,2010:cognoms/125989","title":"IBAÑEZ","updated":"2020-10-30T11:00:00+00:00","content":{"xml:lang":"ca","content":"Com a primer cognom: 7.554 persones; com a segon cognom: 7.683 persones"}},{"ono:f":{"ono:c":{"id":"251373","content":"IGLESIAS"},"ono:rank":{"ono:total":"95"},"ono:pos2":{"ono:w":{"ono:total":"0.98"},"ono:v":"7531"},"ono:pos1":{"ono:w":{"ono:total":"1.00"},"ono:v":"7690"}},"link":{"href":"https://www.idescat.cat/cognoms/?geo=3&id=251373","type":"text/html"},"id":"tag:idescat.cat,2010:cognoms/251373","title":"IGLESIAS","updated":"2020-10-30T11:00:00+00:00","content":{"xml:lang":"ca","content":"Com a primer cognom: 7.690 persones; com a segon cognom: 7.531 persones"}},{"ono:f":{"ono:c":{"id":"41084","content":"RIERA"},"ono:rank":{"ono:total":"96"},"ono:pos2":{"ono:w":{"ono:total":"0.93"},"ono:v":"7168"},"ono:pos1":{"ono:w":{"ono:total":"1.01"},"ono:v":"7763"}},"link":{"href":"https://www.idescat.cat/cognoms/?geo=3&id=41084","type":"text/html"},"id":"tag:idescat.cat,2010:cognoms/41084","title":"RIERA","updated":"2020-10-30T11:00:00+00:00","content":{"xml:lang":"ca","content":"Com a primer cognom: 7.763 persones; com a segon cognom: 7.168 persones"}},{"ono:f":{"ono:c":{"id":"204420","content":"SOLA"},"ono:rank":{"ono:total":"97"},"ono:pos2":{"ono:w":{"ono:total":"0.95"},"ono:v":"7314"},"ono:pos1":{"ono:w":{"ono:total":"0.98"},"ono:v":"7519"}},"link":{"href":"https://www.idescat.cat/cognoms/?geo=3&id=204420","type":"text/html"},"id":"tag:idescat.cat,2010:cognoms/204420","title":"SOLA","updated":"2020-10-30T11:00:00+00:00","content":{"xml:lang":"ca","content":"Com a primer cognom: 7.519 persones; com a segon cognom: 7.314 persones"}},{"ono:f":{"ono:c":{"id":"81622","content":"GALLARDO"},"ono:rank":{"ono:total":"98"},"ono:pos2":{"ono:w":{"ono:total":"0.95"},"ono:v":"7298"},"ono:pos1":{"ono:w":{"ono:total":"0.97"},"ono:v":"7434"}},"link":{"href":"https://www.idescat.cat/cognoms/?geo=3&id=81622","type":"text/html"},"id":"tag:idescat.cat,2010:cognoms/81622","title":"GALLARDO","updated":"2020-10-30T11:00:00+00:00","content":{"xml:lang":"ca","content":"Com a primer cognom: 7.434 persones; com a segon cognom: 7.298 persones"}},{"ono:f":{"ono:c":{"id":"1387","content":"PARRA"},"ono:rank":{"ono:total":"99"},"ono:pos2":{"ono:w":{"ono:total":"0.98"},"ono:v":"7513"},"ono:pos1":{"ono:w":{"ono:total":"0.93"},"ono:v":"7133"}},"link":{"href":"https://www.idescat.cat/cognoms/?geo=3&id=1387","type":"text/html"},"id":"tag:idescat.cat,2010:cognoms/1387","title":"PARRA","updated":"2020-10-30T11:00:00+00:00","content":{"xml:lang":"ca","content":"Com a primer cognom: 7.133 persones; com a segon cognom: 7.513 persones"}},{"ono:f":{"ono:c":{"id":"204505","content":"AGUILERA"},"ono:rank":{"ono:total":"100"},"ono:pos2":{"ono:w":{"ono:total":"0.92"},"ono:v":"7115"},"ono:pos1":{"ono:w":{"ono:total":"0.95"},"ono:v":"7272"}},"link":{"href":"https://www.idescat.cat/cognoms/?geo=3&id=204505","type":"text/html"},"id":"tag:idescat.cat,2010:cognoms/204505","title":"AGUILERA","updated":"2020-10-30T11:00:00+00:00","content":{"xml:lang":"ca","content":"Com a primer cognom: 7.272 persones; com a segon cognom: 7.115 persones"}},
+      {"ono:f":{"ono:c":{"id":"169687","content":"GRAU"},"ono:rank":{"ono:total":"101"},"ono:pos2":{"ono:w":{"ono:total":"0.88"},"ono:v":"6773"},"ono:pos1":{"ono:w":{"ono:total":"0.98"},"ono:v":"7539"}},"link":{"href":"https://www.idescat.cat/cognoms/?geo=3&id=169687","type":"text/html"},"id":"tag:idescat.cat,2010:cognoms/169687","title":"GRAU","updated":"2020-10-30T11:00:00+00:00","content":{"xml:lang":"ca","content":"Com a primer cognom: 7.539 persones; com a segon cognom: 6.773 persones"}},{"ono:f":{"ono:c":{"id":"126080","content":"MONTERO"},"ono:rank":{"ono:total":"102"},"ono:pos2":{"ono:w":{"ono:total":"0.92"},"ono:v":"7091"},"ono:pos1":{"ono:w":{"ono:total":"0.93"},"ono:v":"7193"}},"link":{"href":"https://www.idescat.cat/cognoms/?geo=3&id=126080","type":"text/html"},"id":"tag:idescat.cat,2010:cognoms/126080","title":"MONTERO","updated":"2020-10-30T11:00:00+00:00","content":{"xml:lang":"ca","content":"Com a primer cognom: 7.193 persones; com a segon cognom: 7.091 persones"}},{"ono:f":{"ono:c":{"id":"41046","content":"PRIETO"},"ono:rank":{"ono:total":"103"},"ono:pos2":{"ono:w":{"ono:total":"0.91"},"ono:v":"7001"},"ono:pos1":{"ono:w":{"ono:total":"0.93"},"ono:v":"7161"}},"link":{"href":"https://www.idescat.cat/cognoms/?geo=3&id=41046","type":"text/html"},"id":"tag:idescat.cat,2010:cognoms/41046","title":"PRIETO","updated":"2020-10-30T11:00:00+00:00","content":{"xml:lang":"ca","content":"Com a primer cognom: 7.161 persones; com a segon cognom: 7.001 persones"}},{"ono:f":{"ono:c":{"id":"204511","content":"ARIAS"},"ono:rank":{"ono:total":"104"},"ono:pos2":{"ono:w":{"ono:total":"0.94"},"ono:v":"7197"},"ono:pos1":{"ono:w":{"ono:total":"0.90"},"ono:v":"6962"}},"link":{"href":"https://www.idescat.cat/cognoms/?geo=3&id=204511","type":"text/html"},"id":"tag:idescat.cat,2010:cognoms/204511","title":"ARIAS","updated":"2020-10-30T11:00:00+00:00","content":{"xml:lang":"ca","content":"Com a primer cognom: 6.962 persones; com a segon cognom: 7.197 persones"}},{"ono:f":{"ono:c":{"id":"1405","content":"TOMAS"},"ono:rank":{"ono:total":"105"},"ono:pos2":{"ono:w":{"ono:total":"0.90"},"ono:v":"6928"},"ono:pos1":{"ono:w":{"ono:total":"0.94"},"ono:v":"7229"}},"link":{"href":"https://www.idescat.cat/cognoms/?geo=3&id=1405","type":"text/html"},"id":"tag:idescat.cat,2010:cognoms/1405","title":"TOMAS","updated":"2020-10-30T11:00:00+00:00","content":{"xml:lang":"ca","content":"Com a primer cognom: 7.229 persones; com a segon cognom: 6.928 persones"}},{"ono:f":{"ono:c":{"id":"295740","content":"NIETO"},"ono:rank":{"ono:total":"106"},"ono:pos2":{"ono:w":{"ono:total":"0.92"},"ono:v":"7050"},"ono:pos1":{"ono:w":{"ono:total":"0.91"},"ono:v":"6968"}},"link":{"href":"https://www.idescat.cat/cognoms/?geo=3&id=295740","type":"text/html"},"id":"tag:idescat.cat,2010:cognoms/295740","title":"NIETO","updated":"2020-10-30T11:00:00+00:00","content":{"xml:lang":"ca","content":"Com a primer cognom: 6.968 persones; com a segon cognom: 7.050 persones"}},{"ono:f":{"ono:c":{"id":"81722","content":"LUQUE"},"ono:rank":{"ono:total":"107"},"ono:pos2":{"ono:w":{"ono:total":"0.92"},"ono:v":"7067"},"ono:pos1":{"ono:w":{"ono:total":"0.90"},"ono:v":"6903"}},"link":{"href":"https://www.idescat.cat/cognoms/?geo=3&id=81722","type":"text/html"},"id":"tag:idescat.cat,2010:cognoms/81722","title":"LUQUE","updated":"2020-10-30T11:00:00+00:00","content":{"xml:lang":"ca","content":"Com a primer cognom: 6.903 persones; com a segon cognom: 7.067 persones"}},{"ono:f":{"ono:c":{"id":"40927","content":"DOMENECH"},"ono:rank":{"ono:total":"108"},"ono:pos2":{"ono:w":{"ono:total":"0.89"},"ono:v":"6815"},"ono:pos1":{"ono:w":{"ono:total":"0.93"},"ono:v":"7135"}},"link":{"href":"https://www.idescat.cat/cognoms/?geo=3&id=40927","type":"text/html"},"id":"tag:idescat.cat,2010:cognoms/40927","title":"DOMENECH","updated":"2020-10-30T11:00:00+00:00","content":{"xml:lang":"ca","content":"Com a primer cognom: 7.135 persones; com a segon cognom: 6.815 persones"}},{"ono:f":{"ono:c":{"id":"169696","content":"LARA"},"ono:rank":{"ono:total":"109"},"ono:pos2":{"ono:w":{"ono:total":"0.89"},"ono:v":"6875"},"ono:pos1":{"ono:w":{"ono:total":"0.89"},"ono:v":"6850"}},"link":{"href":"https://www.idescat.cat/cognoms/?geo=3&id=169696","type":"text/html"},"id":"tag:idescat.cat,2010:cognoms/169696","title":"LARA","updated":"2020-10-30T11:00:00+00:00","content":{"xml:lang":"ca","content":"Com a primer cognom: 6.850 persones; com a segon cognom: 6.875 persones"}},{"ono:f":{"ono:c":{"id":"169723","content":"VALLS"},"ono:rank":{"ono:total":"110"},"ono:pos2":{"ono:w":{"ono:total":"0.85"},"ono:v":"6542"},"ono:pos1":{"ono:w":{"ono:total":"0.93"},"ono:v":"7179"}},"link":{"href":"https://www.idescat.cat/cognoms/?geo=3&id=169723","type":"text/html"},"id":"tag:idescat.cat,2010:cognoms/169723","title":"VALLS","updated":"2020-10-30T11:00:00+00:00","content":{"xml:lang":"ca","content":"Com a primer cognom: 7.179 persones; com a segon cognom: 6.542 persones"}},{"ono:f":{"ono:c":{"id":"296723","content":"SOTO"},"ono:rank":{"ono:total":"111"},"ono:pos2":{"ono:w":{"ono:total":"0.86"},"ono:v":"6582"},"ono:pos1":{"ono:w":{"ono:total":"0.85"},"ono:v":"6559"}},"link":{"href":"https://www.idescat.cat/cognoms/?geo=3&id=296723","type":"text/html"},"id":"tag:idescat.cat,2010:cognoms/296723","title":"SOTO","updated":"2020-10-30T11:00:00+00:00","content":{"xml:lang":"ca","content":"Com a primer cognom: 6.559 persones; com a segon cognom: 6.582 persones"}},{"ono:f":{"ono:c":{"id":"40965","content":"SANTIAGO"},"ono:rank":{"ono:total":"112"},"ono:pos2":{"ono:w":{"ono:total":"0.82"},"ono:v":"6316"},"ono:pos1":{"ono:w":{"ono:total":"0.87"},"ono:v":"6720"}},"link":{"href":"https://www.idescat.cat/cognoms/?geo=3&id=40965","type":"text/html"},"id":"tag:idescat.cat,2010:cognoms/40965","title":"SANTIAGO","updated":"2020-10-30T11:00:00+00:00","content":{"xml:lang":"ca","content":"Com a primer cognom: 6.720 persones; com a segon cognom: 6.316 persones"}},{"ono:f":{"ono:c":{"id":"41090","content":"COLL"},"ono:rank":{"ono:total":"113"},"ono:pos2":{"ono:w":{"ono:total":"0.81"},"ono:v":"6213"},"ono:pos1":{"ono:w":{"ono:total":"0.85"},"ono:v":"6549"}},"link":{"href":"https://www.idescat.cat/cognoms/?geo=3&id=41090","type":"text/html"},"id":"tag:idescat.cat,2010:cognoms/41090","title":"COLL","updated":"2020-10-30T11:00:00+00:00","content":{"xml:lang":"ca","content":"Com a primer cognom: 6.549 persones; com a segon cognom: 6.213 persones"}},{"ono:f":{"ono:c":{"id":"1410","content":"VEGA"},"ono:rank":{"ono:total":"114"},"ono:pos2":{"ono:w":{"ono:total":"0.81"},"ono:v":"6235"},"ono:pos1":{"ono:w":{"ono:total":"0.84"},"ono:v":"6492"}},"link":{"href":"https://www.idescat.cat/cognoms/?geo=3&id=1410","type":"text/html"},"id":"tag:idescat.cat,2010:cognoms/1410","title":"VEGA","updated":"2020-10-30T11:00:00+00:00","content":{"xml:lang":"ca","content":"Com a primer cognom: 6.492 persones; com a segon cognom: 6.235 persones"}},{"ono:f":{"ono:c":{"id":"204514","content":"BENITEZ"},"ono:rank":{"ono:total":"115"},"ono:pos2":{"ono:w":{"ono:total":"0.82"},"ono:v":"6334"},"ono:pos1":{"ono:w":{"ono:total":"0.82"},"ono:v":"6320"}},"link":{"href":"https://www.idescat.cat/cognoms/?geo=3&id=204514","type":"text/html"},"id":"tag:idescat.cat,2010:cognoms/204514","title":"BENITEZ","updated":"2020-10-30T11:00:00+00:00","content":{"xml:lang":"ca","content":"Com a primer cognom: 6.320 persones; com a segon cognom: 6.334 persones"}},{"ono:f":{"ono:c":{"id":"82896","content":"SINGH"},"ono:rank":{"ono:total":"116"},"ono:pos2":{"ono:w":{"ono:total":"0.05"},"ono:v":"360"},"ono:pos1":{"ono:w":{"ono:total":"1.57"},"ono:v":"12110"}},"link":{"href":"https://www.idescat.cat/cognoms/?geo=3&id=82896","type":"text/html"},"id":"tag:idescat.cat,2010:cognoms/82896","title":"SINGH","updated":"2020-10-30T11:00:00+00:00","content":{"xml:lang":"ca","content":"Com a primer cognom: 12.110 persones; com a segon cognom: 360 persones"}},{"ono:f":{"ono:c":{"id":"125977","content":"CARRILLO"},"ono:rank":{"ono:total":"117"},"ono:pos2":{"ono:w":{"ono:total":"0.80"},"ono:v":"6182"},"ono:pos1":{"ono:w":{"ono:total":"0.80"},"ono:v":"6177"}},"link":{"href":"https://www.idescat.cat/cognoms/?geo=3&id=125977","type":"text/html"},"id":"tag:idescat.cat,2010:cognoms/125977","title":"CARRILLO","updated":"2020-10-30T11:00:00+00:00","content":{"xml:lang":"ca","content":"Com a primer cognom: 6.177 persones; com a segon cognom: 6.182 persones"}},{"ono:f":{"ono:c":{"id":"40952","content":"MENDOZA"},"ono:rank":{"ono:total":"118"},"ono:pos2":{"ono:w":{"ono:total":"0.80"},"ono:v":"6130"},"ono:pos1":{"ono:w":{"ono:total":"0.79"},"ono:v":"6046"}},"link":{"href":"https://www.idescat.cat/cognoms/?geo=3&id=40952","type":"text/html"},"id":"tag:idescat.cat,2010:cognoms/40952","title":"MENDOZA","updated":"2020-10-30T11:00:00+00:00","content":{"xml:lang":"ca","content":"Com a primer cognom: 6.046 persones; com a segon cognom: 6.130 persones"}},{"ono:f":{"ono:c":{"id":"1478","content":"RIVERA"},"ono:rank":{"ono:total":"119"},"ono:pos2":{"ono:w":{"ono:total":"0.77"},"ono:v":"5959"},"ono:pos1":{"ono:w":{"ono:total":"0.80"},"ono:v":"6172"}},"link":{"href":"https://www.idescat.cat/cognoms/?geo=3&id=1478","type":"text/html"},"id":"tag:idescat.cat,2010:cognoms/1478","title":"RIVERA","updated":"2020-10-30T11:00:00+00:00","content":{"xml:lang":"ca","content":"Com a primer cognom: 6.172 persones; com a segon cognom: 5.959 persones"}},{"ono:f":{"ono:c":{"id":"1310","content":"VERA"},"ono:rank":{"ono:total":"120"},"ono:pos2":{"ono:w":{"ono:total":"0.78"},"ono:v":"6019"},"ono:pos1":{"ono:w":{"ono:total":"0.79"},"ono:v":"6095"}},"link":{"href":"https://www.idescat.cat/cognoms/?geo=3&id=1310","type":"text/html"},"id":"tag:idescat.cat,2010:cognoms/1310","title":"VERA","updated":"2020-10-30T11:00:00+00:00","content":{"xml:lang":"ca","content":"Com a primer cognom: 6.095 persones; com a segon cognom: 6.019 persones"}},{"ono:f":{"ono:c":{"id":"296716","content":"ROMAN"},"ono:rank":{"ono:total":"121"},"ono:pos2":{"ono:w":{"ono:total":"0.77"},"ono:v":"5910"},"ono:pos1":{"ono:w":{"ono:total":"0.80"},"ono:v":"6153"}},"link":{"href":"https://www.idescat.cat/cognoms/?geo=3&id=296716","type":"text/html"},"id":"tag:idescat.cat,2010:cognoms/296716","title":"ROMAN","updated":"2020-10-30T11:00:00+00:00","content":{"xml:lang":"ca","content":"Com a primer cognom: 6.153 persones; com a segon cognom: 5.910 persones"}},{"ono:f":{"ono:c":{"id":"1265","content":"EXPOSITO"},"ono:rank":{"ono:total":"122"},"ono:pos2":{"ono:w":{"ono:total":"0.81"},"ono:v":"6246"},"ono:pos1":{"ono:w":{"ono:total":"0.72"},"ono:v":"5547"}},"link":{"href":"https://www.idescat.cat/cognoms/?geo=3&id=1265","type":"text/html"},"id":"tag:idescat.cat,2010:cognoms/1265","title":"EXPOSITO","updated":"2020-10-30T11:00:00+00:00","content":{"xml:lang":"ca","content":"Com a primer cognom: 5.547 persones; com a segon cognom: 6.246 persones"}},{"ono:f":{"ono:c":{"id":"169719","content":"SORIANO"},"ono:rank":{"ono:total":"123"},"ono:pos2":{"ono:w":{"ono:total":"0.75"},"ono:v":"5767"},"ono:pos1":{"ono:w":{"ono:total":"0.78"},"ono:v":"5983"}},"link":{"href":"https://www.idescat.cat/cognoms/?geo=3&id=169719","type":"text/html"},"id":"tag:idescat.cat,2010:cognoms/169719","title":"SORIANO","updated":"2020-10-30T11:00:00+00:00","content":{"xml:lang":"ca","content":"Com a primer cognom: 5.983 persones; com a segon cognom: 5.767 persones"}},{"ono:f":{"ono:c":{"id":"40934","content":"GRACIA"},"ono:rank":{"ono:total":"124"},"ono:pos2":{"ono:w":{"ono:total":"0.76"},"ono:v":"5868"},"ono:pos1":{"ono:w":{"ono:total":"0.76"},"ono:v":"5879"}},"link":{"href":"https://www.idescat.cat/cognoms/?geo=3&id=40934","type":"text/html"},"id":"tag:idescat.cat,2010:cognoms/40934","title":"GRACIA","updated":"2020-10-30T11:00:00+00:00","content":{"xml:lang":"ca","content":"Com a primer cognom: 5.879 persones; com a segon cognom: 5.868 persones"}},{"ono:f":{"ono:c":{"id":"204613","content":"FRANCO"},"ono:rank":{"ono:total":"125"},"ono:pos2":{"ono:w":{"ono:total":"0.73"},"ono:v":"5648"},"ono:pos1":{"ono:w":{"ono:total":"0.77"},"ono:v":"5940"}},"link":{"href":"https://www.idescat.cat/cognoms/?geo=3&id=204613","type":"text/html"},"id":"tag:idescat.cat,2010:cognoms/204613","title":"FRANCO","updated":"2020-10-30T11:00:00+00:00","content":{"xml:lang":"ca","content":"Com a primer cognom: 5.940 persones; com a segon cognom: 5.648 persones"}},
+      {"ono:f":{"ono:c":{"id":"252079","content":"SILVA"},"ono:rank":{"ono:total":"126"},"ono:pos2":{"ono:w":{"ono:total":"0.73"},"ono:v":"5652"},"ono:pos1":{"ono:w":{"ono:total":"0.77"},"ono:v":"5906"}},"link":{"href":"https://www.idescat.cat/cognoms/?geo=3&id=252079","type":"text/html"},"id":"tag:idescat.cat,2010:cognoms/252079","title":"SILVA","updated":"2020-10-30T11:00:00+00:00","content":{"xml:lang":"ca","content":"Com a primer cognom: 5.906 persones; com a segon cognom: 5.652 persones"}},{"ono:f":{"ono:c":{"id":"169712","content":"PRAT"},"ono:rank":{"ono:total":"127"},"ono:pos2":{"ono:w":{"ono:total":"0.71"},"ono:v":"5501"},"ono:pos1":{"ono:w":{"ono:total":"0.78"},"ono:v":"6004"}},"link":{"href":"https://www.idescat.cat/cognoms/?geo=3&id=169712","type":"text/html"},"id":"tag:idescat.cat,2010:cognoms/169712","title":"PRAT","updated":"2020-10-30T11:00:00+00:00","content":{"xml:lang":"ca","content":"Com a primer cognom: 6.004 persones; com a segon cognom: 5.501 persones"}},{"ono:f":{"ono:c":{"id":"251482","content":"ROS"},"ono:rank":{"ono:total":"128"},"ono:pos2":{"ono:w":{"ono:total":"0.72"},"ono:v":"5504"},"ono:pos1":{"ono:w":{"ono:total":"0.78"},"ono:v":"5974"}},"link":{"href":"https://www.idescat.cat/cognoms/?geo=3&id=251482","type":"text/html"},"id":"tag:idescat.cat,2010:cognoms/251482","title":"ROS","updated":"2020-10-30T11:00:00+00:00","content":{"xml:lang":"ca","content":"Com a primer cognom: 5.974 persones; com a segon cognom: 5.504 persones"}},{"ono:f":{"ono:c":{"id":"1302","content":"SAEZ"},"ono:rank":{"ono:total":"128"},"ono:pos2":{"ono:w":{"ono:total":"0.74"},"ono:v":"5713"},"ono:pos1":{"ono:w":{"ono:total":"0.75"},"ono:v":"5765"}},"link":{"href":"https://www.idescat.cat/cognoms/?geo=3&id=1302","type":"text/html"},"id":"tag:idescat.cat,2010:cognoms/1302","title":"SAEZ","updated":"2020-10-30T11:00:00+00:00","content":{"xml:lang":"ca","content":"Com a primer cognom: 5.765 persones; com a segon cognom: 5.713 persones"}},{"ono:f":{"ono:c":{"id":"296626","content":"VICENTE"},"ono:rank":{"ono:total":"130"},"ono:pos2":{"ono:w":{"ono:total":"0.74"},"ono:v":"5684"},"ono:pos1":{"ono:w":{"ono:total":"0.75"},"ono:v":"5744"}},"link":{"href":"https://www.idescat.cat/cognoms/?geo=3&id=296626","type":"text/html"},"id":"tag:idescat.cat,2010:cognoms/296626","title":"VICENTE","updated":"2020-10-30T11:00:00+00:00","content":{"xml:lang":"ca","content":"Com a primer cognom: 5.744 persones; com a segon cognom: 5.684 persones"}},{"ono:f":{"ono:c":{"id":"40996","content":"BRAVO"},"ono:rank":{"ono:total":"131"},"ono:pos2":{"ono:w":{"ono:total":"0.72"},"ono:v":"5557"},"ono:pos1":{"ono:w":{"ono:total":"0.74"},"ono:v":"5715"}},"link":{"href":"https://www.idescat.cat/cognoms/?geo=3&id=40996","type":"text/html"},"id":"tag:idescat.cat,2010:cognoms/40996","title":"BRAVO","updated":"2020-10-30T11:00:00+00:00","content":{"xml:lang":"ca","content":"Com a primer cognom: 5.715 persones; com a segon cognom: 5.557 persones"}},{"ono:f":{"ono:c":{"id":"296625","content":"VELASCO"},"ono:rank":{"ono:total":"132"},"ono:pos2":{"ono:w":{"ono:total":"0.71"},"ono:v":"5484"},"ono:pos1":{"ono:w":{"ono:total":"0.75"},"ono:v":"5761"}},"link":{"href":"https://www.idescat.cat/cognoms/?geo=3&id=296625","type":"text/html"},"id":"tag:idescat.cat,2010:cognoms/296625","title":"VELASCO","updated":"2020-10-30T11:00:00+00:00","content":{"xml:lang":"ca","content":"Com a primer cognom: 5.761 persones; com a segon cognom: 5.484 persones"}},{"ono:f":{"ono:c":{"id":"81742","content":"PASTOR"},"ono:rank":{"ono:total":"133"},"ono:pos2":{"ono:w":{"ono:total":"0.73"},"ono:v":"5644"},"ono:pos1":{"ono:w":{"ono:total":"0.72"},"ono:v":"5525"}},"link":{"href":"https://www.idescat.cat/cognoms/?geo=3&id=81742","type":"text/html"},"id":"tag:idescat.cat,2010:cognoms/81742","title":"PASTOR","updated":"2020-10-30T11:00:00+00:00","content":{"xml:lang":"ca","content":"Com a primer cognom: 5.525 persones; com a segon cognom: 5.644 persones"}},{"ono:f":{"ono:c":{"id":"285509","content":"DOMINGO"},"ono:rank":{"ono:total":"134"},"ono:pos2":{"ono:w":{"ono:total":"0.69"},"ono:v":"5272"},"ono:pos1":{"ono:w":{"ono:total":"0.74"},"ono:v":"5693"}},"link":{"href":"https://www.idescat.cat/cognoms/?geo=3&id=285509","type":"text/html"},"id":"tag:idescat.cat,2010:cognoms/285509","title":"DOMINGO","updated":"2020-10-30T11:00:00+00:00","content":{"xml:lang":"ca","content":"Com a primer cognom: 5.693 persones; com a segon cognom: 5.272 persones"}},{"ono:f":{"ono:c":{"id":"204182","content":"RIBAS"},"ono:rank":{"ono:total":"135"},"ono:pos2":{"ono:w":{"ono:total":"0.70"},"ono:v":"5368"},"ono:pos1":{"ono:w":{"ono:total":"0.73"},"ono:v":"5586"}},"link":{"href":"https://www.idescat.cat/cognoms/?geo=3&id=204182","type":"text/html"},"id":"tag:idescat.cat,2010:cognoms/204182","title":"RIBAS","updated":"2020-10-30T11:00:00+00:00","content":{"xml:lang":"ca","content":"Com a primer cognom: 5.586 persones; com a segon cognom: 5.368 persones"}},{"ono:f":{"ono:c":{"id":"169669","content":"CASADO"},"ono:rank":{"ono:total":"136"},"ono:pos2":{"ono:w":{"ono:total":"0.70"},"ono:v":"5351"},"ono:pos1":{"ono:w":{"ono:total":"0.73"},"ono:v":"5585"}},"link":{"href":"https://www.idescat.cat/cognoms/?geo=3&id=169669","type":"text/html"},"id":"tag:idescat.cat,2010:cognoms/169669","title":"CASADO","updated":"2020-10-30T11:00:00+00:00","content":{"xml:lang":"ca","content":"Com a primer cognom: 5.585 persones; com a segon cognom: 5.351 persones"}},{"ono:f":{"ono:c":{"id":"81758","content":"SALVADOR"},"ono:rank":{"ono:total":"137"},"ono:pos2":{"ono:w":{"ono:total":"0.68"},"ono:v":"5243"},"ono:pos1":{"ono:w":{"ono:total":"0.74"},"ono:v":"5663"}},"link":{"href":"https://www.idescat.cat/cognoms/?geo=3&id=81758","type":"text/html"},"id":"tag:idescat.cat,2010:cognoms/81758","title":"SALVADOR","updated":"2020-10-30T11:00:00+00:00","content":{"xml:lang":"ca","content":"Com a primer cognom: 5.663 persones; com a segon cognom: 5.243 persones"}},{"ono:f":{"ono:c":{"id":"1256","content":"CONTRERAS"},"ono:rank":{"ono:total":"138"},"ono:pos2":{"ono:w":{"ono:total":"0.69"},"ono:v":"5301"},"ono:pos1":{"ono:w":{"ono:total":"0.72"},"ono:v":"5540"}},"link":{"href":"https://www.idescat.cat/cognoms/?geo=3&id=1256","type":"text/html"},"id":"tag:idescat.cat,2010:cognoms/1256","title":"CONTRERAS","updated":"2020-10-30T11:00:00+00:00","content":{"xml:lang":"ca","content":"Com a primer cognom: 5.540 persones; com a segon cognom: 5.301 persones"}},{"ono:f":{"ono:c":{"id":"40957","content":"PADILLA"},"ono:rank":{"ono:total":"139"},"ono:pos2":{"ono:w":{"ono:total":"0.70"},"ono:v":"5364"},"ono:pos1":{"ono:w":{"ono:total":"0.71"},"ono:v":"5470"}},"link":{"href":"https://www.idescat.cat/cognoms/?geo=3&id=40957","type":"text/html"},"id":"tag:idescat.cat,2010:cognoms/40957","title":"PADILLA","updated":"2020-10-30T11:00:00+00:00","content":{"xml:lang":"ca","content":"Com a primer cognom: 5.470 persones; com a segon cognom: 5.364 persones"}},{"ono:f":{"ono:c":{"id":"285742","content":"FARRE"},"ono:rank":{"ono:total":"140"},"ono:pos2":{"ono:w":{"ono:total":"0.68"},"ono:v":"5251"},"ono:pos1":{"ono:w":{"ono:total":"0.73"},"ono:v":"5579"}},"link":{"href":"https://www.idescat.cat/cognoms/?geo=3&id=285742","type":"text/html"},"id":"tag:idescat.cat,2010:cognoms/285742","title":"FARRE","updated":"2020-10-30T11:00:00+00:00","content":{"xml:lang":"ca","content":"Com a primer cognom: 5.579 persones; com a segon cognom: 5.251 persones"}},{"ono:f":{"ono:c":{"id":"126369","content":"FERRE"},"ono:rank":{"ono:total":"141"},"ono:pos2":{"ono:w":{"ono:total":"0.68"},"ono:v":"5244"},"ono:pos1":{"ono:w":{"ono:total":"0.72"},"ono:v":"5566"}},"link":{"href":"https://www.idescat.cat/cognoms/?geo=3&id=126369","type":"text/html"},"id":"tag:idescat.cat,2010:cognoms/126369","title":"FERRE","updated":"2020-10-30T11:00:00+00:00","content":{"xml:lang":"ca","content":"Com a primer cognom: 5.566 persones; com a segon cognom: 5.244 persones"}},{"ono:f":{"ono:c":{"id":"296796","content":"VENTURA"},"ono:rank":{"ono:total":"142"},"ono:pos2":{"ono:w":{"ono:total":"0.67"},"ono:v":"5190"},"ono:pos1":{"ono:w":{"ono:total":"0.73"},"ono:v":"5585"}},"link":{"href":"https://www.idescat.cat/cognoms/?geo=3&id=296796","type":"text/html"},"id":"tag:idescat.cat,2010:cognoms/296796","title":"VENTURA","updated":"2020-10-30T11:00:00+00:00","content":{"xml:lang":"ca","content":"Com a primer cognom: 5.585 persones; com a segon cognom: 5.190 persones"}},{"ono:f":{"ono:c":{"id":"126173","content":"ROBLES"},"ono:rank":{"ono:total":"143"},"ono:pos2":{"ono:w":{"ono:total":"0.70"},"ono:v":"5411"},"ono:pos1":{"ono:w":{"ono:total":"0.70"},"ono:v":"5352"}},"link":{"href":"https://www.idescat.cat/cognoms/?geo=3&id=126173","type":"text/html"},"id":"tag:idescat.cat,2010:cognoms/126173","title":"ROBLES","updated":"2020-10-30T11:00:00+00:00","content":{"xml:lang":"ca","content":"Com a primer cognom: 5.352 persones; com a segon cognom: 5.411 persones"}},{"ono:f":{"ono:c":{"id":"295709","content":"ESPINOSA"},"ono:rank":{"ono:total":"144"},"ono:pos2":{"ono:w":{"ono:total":"0.69"},"ono:v":"5271"},"ono:pos1":{"ono:w":{"ono:total":"0.70"},"ono:v":"5400"}},"link":{"href":"https://www.idescat.cat/cognoms/?geo=3&id=295709","type":"text/html"},"id":"tag:idescat.cat,2010:cognoms/295709","title":"ESPINOSA","updated":"2020-10-30T11:00:00+00:00","content":{"xml:lang":"ca","content":"Com a primer cognom: 5.400 persones; com a segon cognom: 5.271 persones"}},{"ono:f":{"ono:c":{"id":"81652","content":"SIERRA"},"ono:rank":{"ono:total":"145"},"ono:pos2":{"ono:w":{"ono:total":"0.69"},"ono:v":"5301"},"ono:pos1":{"ono:w":{"ono:total":"0.69"},"ono:v":"5274"}},"link":{"href":"https://www.idescat.cat/cognoms/?geo=3&id=81652","type":"text/html"},"id":"tag:idescat.cat,2010:cognoms/81652","title":"SIERRA","updated":"2020-10-30T11:00:00+00:00","content":{"xml:lang":"ca","content":"Com a primer cognom: 5.274 persones; com a segon cognom: 5.301 persones"}},{"ono:f":{"ono:c":{"id":"40975","content":"VALERO"},"ono:rank":{"ono:total":"146"},"ono:pos2":{"ono:w":{"ono:total":"0.66"},"ono:v":"5102"},"ono:pos1":{"ono:w":{"ono:total":"0.71"},"ono:v":"5437"}},"link":{"href":"https://www.idescat.cat/cognoms/?geo=3&id=40975","type":"text/html"},"id":"tag:idescat.cat,2010:cognoms/40975","title":"VALERO","updated":"2020-10-30T11:00:00+00:00","content":{"xml:lang":"ca","content":"Com a primer cognom: 5.437 persones; com a segon cognom: 5.102 persones"}},{"ono:f":{"ono:c":{"id":"169752","content":"CAMACHO"},"ono:rank":{"ono:total":"147"},"ono:pos2":{"ono:w":{"ono:total":"0.68"},"ono:v":"5230"},"ono:pos1":{"ono:w":{"ono:total":"0.68"},"ono:v":"5210"}},"link":{"href":"https://www.idescat.cat/cognoms/?geo=3&id=169752","type":"text/html"},"id":"tag:idescat.cat,2010:cognoms/169752","title":"CAMACHO","updated":"2020-10-30T11:00:00+00:00","content":{"xml:lang":"ca","content":"Com a primer cognom: 5.210 persones; com a segon cognom: 5.230 persones"}},{"ono:f":{"ono:c":{"id":"1328","content":"BELTRAN"},"ono:rank":{"ono:total":"148"},"ono:pos2":{"ono:w":{"ono:total":"0.66"},"ono:v":"5110"},"ono:pos1":{"ono:w":{"ono:total":"0.69"},"ono:v":"5296"}},"link":{"href":"https://www.idescat.cat/cognoms/?geo=3&id=1328","type":"text/html"},"id":"tag:idescat.cat,2010:cognoms/1328","title":"BELTRAN","updated":"2020-10-30T11:00:00+00:00","content":{"xml:lang":"ca","content":"Com a primer cognom: 5.296 persones; com a segon cognom: 5.110 persones"}},{"ono:f":{"ono:c":{"id":"81600","content":"ANDREU"},"ono:rank":{"ono:total":"149"},"ono:pos2":{"ono:w":{"ono:total":"0.65"},"ono:v":"5015"},"ono:pos1":{"ono:w":{"ono:total":"0.69"},"ono:v":"5290"}},"link":{"href":"https://www.idescat.cat/cognoms/?geo=3&id=81600","type":"text/html"},"id":"tag:idescat.cat,2010:cognoms/81600","title":"ANDREU","updated":"2020-10-30T11:00:00+00:00","content":{"xml:lang":"ca","content":"Com a primer cognom: 5.290 persones; com a segon cognom: 5.015 persones"}},{"ono:f":{"ono:c":{"id":"204620","content":"JURADO"},"ono:rank":{"ono:total":"150"},"ono:pos2":{"ono:w":{"ono:total":"0.66"},"ono:v":"5102"},"ono:pos1":{"ono:w":{"ono:total":"0.67"},"ono:v":"5187"}},"link":{"href":"https://www.idescat.cat/cognoms/?geo=3&id=204620","type":"text/html"},"id":"tag:idescat.cat,2010:cognoms/204620","title":"JURADO","updated":"2020-10-30T11:00:00+00:00","content":{"xml:lang":"ca","content":"Com a primer cognom: 5.187 persones; com a segon cognom: 5.102 persones"}}
+    ],
+    "xmlns": "https://www.w3.org/2005/Atom",
+    "opensearch:itemsPerPage": "25",
+    "id": "tag:idescat.cat,2010:onomastica/cognoms/100/v/1",
+    "updated": "2020-10-30T11:00:00+00:00",
+    "xmlns:opensearch": "https://a9.com/-/spec/opensearch/1.1/"
+  }
+}
