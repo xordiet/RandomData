@@ -1,4 +1,4 @@
-package S201_n1_ex1;
+package S201_n1_ex2;
 
 import java.io.FileNotFoundException;
 import java.io.FileReader;
