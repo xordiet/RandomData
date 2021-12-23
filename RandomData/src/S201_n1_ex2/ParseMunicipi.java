@@ -26,18 +26,23 @@ public class ParseMunicipi {
 			 JSONArray data = (JSONArray)objecte.get("data");
 			 //System.out.println(data);
 			 Iterator<JSONArray> iterator = data.iterator();
-			 int i = 0;
+			 int i = 1;
 	         while (iterator.hasNext()) {
+	        	 int id = i;
 	        	 JSONArray entrada = (JSONArray)iterator.next();
-	        	 String codiPostal = (String)entrada.get(13);
-	        	 int cp = Integer.parseInt(codiPostal);
+	        	 String identif = (String)entrada.get(13);
+	        	 int idf = Integer.parseInt(identif);
 	        	 String municipi = (String)entrada.get(8);
 	        	 String comarca = (String)entrada.get(14);
+	        	 String codiCom = (String)entrada.get(15);
+	        	 int cComarca = Integer.parseInt(codiCom);
 	        	 String provincia = (String)entrada.get(17);
-	        	 Municipi m = new Municipi(codiPostal, municipi, comarca, provincia);
+	        	 String codiProv = (String)entrada.get(18);
+	        	 int cProvincia = Integer.parseInt(codiProv);
+	        	 Municipi m = new Municipi(id, idf, municipi, comarca, cComarca, provincia, cProvincia);
 	        	 listMunicip.add(m);
-	        	 i++;
 	        	 //System.out.println(i+" "+m.toString());
+	        	 i++;
 	         }
 			 
 		 } catch (ParseException pe) {

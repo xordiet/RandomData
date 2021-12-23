@@ -4,217 +4,78 @@ import java.time.LocalDate;
 import java.time.LocalTime;
 import java.time.Month;
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.List;
 import java.util.Random;
 import java.util.concurrent.ThreadLocalRandom;
 
 public class GeneraPersones {
-	
-	public static String gClients(int nombre) {
 		
-		String retorna = "";
+	public static List<Client> gClients(int nombre) {
 		
 		List<String> llistaNoms = new ArrayList<>();
 		llistaNoms = ParseNoms.pNoms();
 		
 		List<String> llistaCognoms = new ArrayList<>();
 		llistaCognoms = ParseCognoms.pCognoms();
-		
-		List<String> llistaCarrers = new ArrayList<>();
-		llistaCarrers = ParseAdresa.pCarrer();
-		
-		List<Municipi> llistaMunicipis = new ArrayList<>();
-		llistaMunicipis = ParseMunicipi.pMunicipi();
-		
-		Random rand = new Random();
-		int randomInt;
-		
-		
-		for(int i=0; i<nombre; i++) {
-			String cadena = "";
-			
-			cadena +="INSERT INTO S201_n1_ex1.clients (nom, adresa_postal, telefon, email, recomenat_per, data_registre) VALUES (";
-			
-			String randomNom = llistaNoms.get(rand.nextInt(llistaNoms.size()));
-			cadena+= "\""+randomNom+" ";
-
-			String randomElement1 = llistaCognoms.get(rand.nextInt(llistaCognoms.size()));
-			String randomElement2 = llistaCognoms.get(rand.nextInt(llistaCognoms.size()));
-			cadena+= randomElement1+" "+randomElement2+"\",";
-			
-			String randomElement = llistaCarrers.get(rand.nextInt(llistaCarrers.size()));
-			cadena+= "\""+randomElement+", ";
-			
-			Municipi randomMunicipi = llistaMunicipis.get(rand.nextInt(llistaMunicipis.size()));
-			cadena+= randomMunicipi+"\",";
-			
-			randomInt=(int)(Math.random()*(699999999-600000000+1)+600000000);
-			cadena+= "\""+randomInt+"\",";
-			
-			cadena+= "\""+randomNom+"."+randomElement1+"@gmail.com\",";
-			
-			int randInt = (int)(Math.random()*(10-1+1)+1);
-			if (randInt == 1) {
-				int recomanat = (int)(Math.random()*(i-1+1)+1);
-				cadena+=recomanat;
-			} else {
-				cadena+="NULL";
-			}
-			
-			String creacio = "";
-			LocalDate start = LocalDate.of(1979, Month.OCTOBER, 1);
-			LocalDate end = LocalDate.now();
-			LocalDate dataRand = betweenD(start, end);
-			creacio += dataRand;
-			LocalTime obre = LocalTime.of(8, 30);
-			LocalTime tanca = LocalTime.of(18, 30);
-			LocalTime randomTime = betweenT(obre, tanca);
-			creacio += " "+randomTime;
-			cadena +=  ", '"+creacio+"'";
-					
-			cadena +=");";
-
-			retorna += cadena+"\n";
-			//System.out.println(cadena);
-
-		}
-		
-		return retorna;
-
-	}
-	
-	public static String gTreballadors(int nombre) {
-		
-		String retorna = "";
-		
-		List<String> llistaNoms = new ArrayList<>();
-		llistaNoms = ParseNoms.pNoms();
-		
-		List<String> llistaCognoms = new ArrayList<>();
-		llistaCognoms = ParseCognoms.pCognoms();
-		
-		
-		Random rand = new Random();
-		int randomInt;
-		
-		
-		for(int i=0; i<nombre; i++) {
-			String cadena = "";
-			
-			cadena +="INSERT INTO S201_n1_ex1.treballadors (nom, alta) VALUES (";
-			
-			String randomNom = llistaNoms.get(rand.nextInt(llistaNoms.size()));
-			cadena+= "\""+randomNom+" ";
-
-			String randomElement1 = llistaCognoms.get(rand.nextInt(llistaCognoms.size()));
-			String randomElement2 = llistaCognoms.get(rand.nextInt(llistaCognoms.size()));
-			cadena+= randomElement1+" "+randomElement2+"\",";
-			
-			String creacio = "";
-			LocalDate start = LocalDate.of(1979, Month.OCTOBER, 1);
-			LocalDate end = LocalDate.now();
-			LocalDate dataRand = betweenD(start, end);
-			creacio += dataRand;
-			LocalTime obre = LocalTime.of(8, 30);
-			LocalTime tanca = LocalTime.of(18, 30);
-			LocalTime randomTime = betweenT(obre, tanca);
-			creacio += " "+randomTime;
-			cadena +=  " '"+creacio+"'";
-					
-			cadena +=");";
-
-			retorna += cadena+"\n";
-			//System.out.println(cadena);
-
-		}
-		
-		return retorna;
-
-	}
-	
-	public static String gProveidors(int nombre) {
-		
-		String retorna = "";
-		
-		List<String> llistaNoms = new ArrayList<>();
-		llistaNoms = ParseNoms.pNoms();
-		
-		List<String> llistaCognoms = new ArrayList<>();
-		llistaCognoms = ParseCognoms.pCognoms();
-
-		List<String> denominacio = constants.DENOMINACIO;
 		
 		List<String> llistaCarrers = new ArrayList<>();
 		llistaCarrers = ParseAdresa.pCarrer();
 		
 		List<String> pisos = constants.PISOS;
 		List<String> portes = constants.PORTES;
-
+		
 		List<Municipi> llistaMunicipis = new ArrayList<>();
 		llistaMunicipis = ParseMunicipi.pMunicipi();
+		//les ordeno perquè l'id segueixi el mateix ordre que a la taula localitats
+		Collections.sort(llistaMunicipis);
+		//llistaMunicipis.forEach(m -> System.out.println(m.toString()));
+		
+		List<Client> clients = new ArrayList<>();
 		
 		Random rand = new Random();
-		int randomInt;
-		
 		
 		for(int i=0; i<nombre; i++) {
-			String cadena = "";
+			Client c;
 			
-			cadena +="INSERT INTO S201_n1_ex1.proveidors (nom, adresa_carrer, adresa_num, adresa_pis, adresa_porta, adresa_ciutat, adresa_cp, adresa_pais) VALUES (";
-			
-			//Nom
 			String randomNom = llistaNoms.get(rand.nextInt(llistaNoms.size()));
-			cadena+= "\""+randomNom+" ";
+
 			String randomElement1 = llistaCognoms.get(rand.nextInt(llistaCognoms.size()));
 			String randomElement2 = llistaCognoms.get(rand.nextInt(llistaCognoms.size()));
-			String forma = denominacio.get(rand.nextInt(denominacio.size()));
-			cadena+= randomElement1+" "+randomElement2+forma+"\",";
+			String randomCognoms = randomElement1+" "+randomElement2;
 			
-			//Adresa Carrer
-			String randomElement = llistaCarrers.get(rand.nextInt(llistaCarrers.size()));
-			cadena+= "\""+randomElement+"\", ";
-			
-			//Adresa Num
-			randomInt=(int)(Math.random()*(1-1000+1)+1000);
-			cadena+= ""+randomInt+", ";
-			
-			//Adresa pis
-			String pis = pisos.get(rand.nextInt(pisos.size()));
-			cadena+= "\""+pis+"\", ";
-			
-			//Adresa porta
-			String porta = portes.get(rand.nextInt(portes.size()));
-			cadena+= "\""+porta+"\", ";
-			
+			//Adreça Carrer
+			String randomCarrer = llistaCarrers.get(rand.nextInt(llistaCarrers.size()));
+			//Adreça Num
+			int randomNum=(int)(Math.random()*(1-500+1)+500);
+			//Adreça pis
+			String randomPis = pisos.get(rand.nextInt(pisos.size()));
+			//Adreça porta
+			String randomPorta = portes.get(rand.nextInt(portes.size()));			
 			//Municipi
 			Municipi randomMunicipi = llistaMunicipis.get(rand.nextInt(llistaMunicipis.size()));
+			//Adresa municipi id
+			String municipi = randomMunicipi.getMunicipi();
+			int municipiID = randomMunicipi.getId();
+			//Adreça Provincia (codi)
+			int prov = randomMunicipi.getCodiProvincia();
+			//Adreça Codi Postal
+			int randomCP=(int)(Math.random()*(999-1)+1);
+			String cp = (String)""+prov+randomCP;
+			String randomAdresa = randomCarrer+", "+randomNum+" "+randomPis+" "+randomPorta;
 			
-			//Adresa ciutat
-			String ciutat = randomMunicipi.getMunicipi();
-			cadena+= "\""+ciutat+"\",";
+			int randomTel=(int)(Math.random()*(699999999-600000000+1)+600000000);
 			
-			//Adresa CP
-			String cp = randomMunicipi.getCodiPostal();
-			cadena+= "\""+cp+"\",";
-
-			//Adresa país
-			String pais = randomMunicipi.getPais();
-			cadena+= "\""+pais+"\"";
-
-			cadena +=");";
-
-			retorna += cadena+"\n";
-			//System.out.println(cadena);
+			c = new Client(i, randomNom, randomCognoms, randomAdresa, cp, municipiID, prov, randomTel);
+			clients.add(c);
 
 		}
 		
-		return retorna;
+		return clients;
 
 	}
 	
-	public static String gMarques(int nombre, int numPr) {
-		
-		String retorna = "";
+	public static List<Treballador> gTreballadors(int nombre, int botigues) {
 		
 		List<String> llistaNoms = new ArrayList<>();
 		llistaNoms = ParseNoms.pNoms();
@@ -222,37 +83,42 @@ public class GeneraPersones {
 		List<String> llistaCognoms = new ArrayList<>();
 		llistaCognoms = ParseCognoms.pCognoms();
 		
+		List<String> categories = constants.CATEG_TREBALLADORS;
+				
+		List<Treballador> treballadors = new ArrayList<>();
 		
 		Random rand = new Random();
-		int randomInt;
-		
 		
 		for(int i=0; i<nombre; i++) {
-			String cadena = "";
-			
-			cadena +="INSERT INTO S201_n1_ex1.marques (marca, proveidor_id) VALUES (";
-			
 			String randomNom = llistaNoms.get(rand.nextInt(llistaNoms.size()));
-			String randomElement1 = llistaCognoms.get(rand.nextInt(llistaCognoms.size()));
-			cadena+= "\""+randomNom+" "+randomElement1+"\", ";
-			
-			randomInt=(int)(Math.random()*(1-numPr+1)+numPr);
-			cadena+= randomInt;
-					
-			cadena +=");";
 
-			retorna += cadena+"\n";
-			//System.out.println(cadena);
+			String randomElement1 = llistaCognoms.get(rand.nextInt(llistaCognoms.size()));
+			String randomElement2 = llistaCognoms.get(rand.nextInt(llistaCognoms.size()));
+			String randomCognoms = randomElement1+" "+randomElement2;
+			
+			int randomNIFn = (int)(Math.random()*(99999999));
+			CalculaDni lletra = new CalculaDni(randomNIFn);
+			String randomNIFl = lletra.getLetra();
+			String randomNIF = randomNIFn+randomNIFl;
+			
+			int randomTel=(int)(Math.random()*(699999999-600000000+1)+600000000);
+			
+			String randomCategoria = categories.get(rand.nextInt(categories.size()));
+			
+			int botigaID = (int)(Math.random()*(botigues)+1);
+			
+			Treballador t = new Treballador(i, randomNom, randomCognoms, randomNIF, randomTel, randomCategoria, botigaID);
+			treballadors.add(t);
 
 		}
 		
-		return retorna;
+		return treballadors;
+
 
 	}
 	
 	/*
 	 * Genera una data random
-	 * copiat de https://www.baeldung.com/java-random-dates
 	 */
 	public static LocalDate betweenD(LocalDate startInclusive, LocalDate endExclusive) {
 	    long startEpochDay = startInclusive.toEpochDay();
