@@ -39,7 +39,7 @@ public class Pais implements Comparable<Pais> {
 
 	@Override
 	public String toString() {
-		return "INSERT INTO S201_n2.paisos (nom) VALUES (\"" + nomPais + "\");";
+		return "INSERT INTO S201_n2.paisos (pais) VALUES (\"" + nomPais + "\");";
 	}
 
 	public int getId() {

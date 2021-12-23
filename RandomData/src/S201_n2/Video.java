@@ -66,7 +66,7 @@ public class Video implements Comparable<Video> {
 	@Override
 	public String toString() {
 		String sql = "";
-		sql += "INSERT INTO S201_n1_ex2.productes (usuari_id, estat, titol, descripcio, "
+		sql += "INSERT INTO S201_n2.videos (usuari_id, estat, titol, descripcio, "
 				+ "grandaria, nom_arxiu, durada, thumbnail, reproduccions, likes, dislikes, "
 				+ "publicat) " + "VALUES (" + usuariId + ", \"" + estat + "\", \""
 				+ titol + "\", \"" + descripcio + "\", " + grandaria + ", \"" 

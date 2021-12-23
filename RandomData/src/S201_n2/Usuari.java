@@ -24,9 +24,9 @@ public class Usuari implements Comparable<Usuari> {
 
 	@Override
 	public String toString() {
-		return "INSERT INTO S201_n2.usuaris (email, password, username, data_naixement"
+		return "INSERT INTO S201_n2.usuaris (email, password, username, data_naixement, "
 				+ "sexe, pais_id, codi_postal) VALUES (\"" + email + "\", \"" + password 
-				+ "\", \"" + username + "\", " + dataNaixement + ", " + sexe + ", " 
+				+ "\", \"" + username + "\", \"" + dataNaixement + "\", \"" + sexe + "\", " 
 				+ pais + ", " + codiPostal + ");";
 	}
 	

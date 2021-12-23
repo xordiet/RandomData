@@ -19,7 +19,7 @@ public class GeneraVideos {
 		Random rand = new Random();
 				
 		for(int i=0; i<nombreVideos; i++) {			
-			int usuariID = rand.nextInt(nombreUsuaris);
+			int usuariID = rand.nextInt(nombreUsuaris)+1;
 			List<String> est = constants.ESTATS;
 			String estat = est.get(rand.nextInt(est.size()));
 			String titol = "Títol del video";

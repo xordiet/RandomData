@@ -55,7 +55,7 @@ public class GeneraPersones {
 			List<String> sexe = constants.SEXE;
 			String sex = sexe.get(rand.nextInt(sexe.size()));
 
-			int pais = rand.nextInt(lPaisos.size());
+			int pais = rand.nextInt(lPaisos.size())+1;
 
 			//Adreça Codi Postal
 			Integer randomCP=(int)(Math.random()*(47999-1)+1);

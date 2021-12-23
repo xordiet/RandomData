@@ -115,8 +115,8 @@ public class Main {
 		*/
 
 		System.out.println(sqlGeneral);
-		//CreaSQL.serialSQL(sqlGeneral, "inserta_tot");
-		//System.out.println("SQL generat! :)");
+		CreaSQL.serialSQL(sqlGeneral, "inserta_tot");
+		System.out.println("Ja hem acabat! :)");
 		
 		
 	}
