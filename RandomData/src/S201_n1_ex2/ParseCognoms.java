@@ -1,8 +1,6 @@
-package S201_n1_ex1;
+package S201_n1_ex2;
 
-import java.io.FileNotFoundException;
 import java.io.FileReader;
-import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.List;
@@ -12,18 +10,17 @@ import org.json.simple.JSONObject;
 import org.json.simple.parser.JSONParser;
 import org.json.simple.parser.ParseException;
 
-public class ParseNoms {
+public class ParseCognoms {
 	
-	private static List<String> listNoms;
+	private static List<String> listCognoms;
 	
-	public static List<String> pNoms() {
-		listNoms = new ArrayList<>();
+	public static List<String> pCognoms() {
+		listCognoms = new ArrayList<>();
 		
 		JSONParser parser = new JSONParser();
 		 
 		 try {
-			 Object obj = parser.parse(new FileReader(constants.RUTAJSONS+"nadons.json"));
-			 System.out.println(obj.toString());
+			 Object obj = parser.parse(new FileReader(constants.RUTAJSONS+"cognoms.json"));
 			 //obj ho convertim a JSON object
 			 JSONObject objecte = (JSONObject) obj;
 			 JSONObject feed = (JSONObject) objecte.get("feed");
@@ -34,8 +31,8 @@ public class ParseNoms {
 	         while (iterator.hasNext()) {
 	        	 JSONObject entrada = (JSONObject)iterator.next();
 	        	 String title = (String)entrada.get("title");
-	        	 listNoms.add(title);
-	        	 System.out.println(i+" "+title);
+	        	 listCognoms.add(title);
+	        	 //System.out.println(i+" "+title);
 	        	 i++;
 	         }
 			 
@@ -43,7 +40,7 @@ public class ParseNoms {
 			 System.out.println("position: " + pe.getPosition());
 	         System.out.println(pe);
 		 } finally {
-			 return listNoms;
+			 return listCognoms;
 		 }
 		 
 

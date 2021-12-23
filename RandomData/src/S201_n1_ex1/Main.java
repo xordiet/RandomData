@@ -7,7 +7,10 @@ public class Main {
 		/**
 		 * Comento els arxius ja creats per no crear-ne de nous cada cop
 		 */ 
-		/* 
+		
+		/*
+		 * Comento per no trepitjar els .sql ja creats
+		 * 
 		String sqlClients = GeneraPersones.gClients(800);
 		System.out.println(sqlClients);
 		CreaSQL.serialSQL(sqlClients, "clients");
@@ -32,6 +35,8 @@ public class Main {
 		System.out.println(sqlVendes);
 		CreaSQL.serialSQL(sqlVendes, "vendes");
 		*/
+		
+		System.out.println("Fet!");
 		
 	}
 

@@ -1,4 +1,4 @@
-package S201_n1_ex1;
+package S201_n1_ex2;
 
 import java.io.FileNotFoundException;
 import java.io.FileReader;
@@ -23,7 +23,7 @@ public class ParseNoms {
 		 
 		 try {
 			 Object obj = parser.parse(new FileReader(constants.RUTAJSONS+"nadons.json"));
-			 System.out.println(obj.toString());
+			 //System.out.println(obj.toString());
 			 //obj ho convertim a JSON object
 			 JSONObject objecte = (JSONObject) obj;
 			 JSONObject feed = (JSONObject) objecte.get("feed");
@@ -35,7 +35,7 @@ public class ParseNoms {
 	        	 JSONObject entrada = (JSONObject)iterator.next();
 	        	 String title = (String)entrada.get("title");
 	        	 listNoms.add(title);
-	        	 System.out.println(i+" "+title);
+	        	 //System.out.println(i+" "+title);
 	        	 i++;
 	         }
 			 
