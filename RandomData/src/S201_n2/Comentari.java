@@ -1,20 +1,19 @@
 package S201_n2;
 
-import java.time.LocalDate;
-import java.util.Calendar;
-
 public class Comentari implements Comparable<Comentari> {
 	private int id;
-	private int comandaID;
-	private int quantitat;
-	private int producteID;
+	private int usuariID;
+	private int videoID;
+	private String text;
+	private String publicat;
 
 	
-	public Comentari(int id, int comandaID, int quantitat, int producteID) {
+	public Comentari(int id, int usuariID, int videoID, String text, String publicat) {
 		this.id = id;
-		this.comandaID = comandaID;
-		this.quantitat = quantitat;
-		this.producteID = producteID;
+		this.usuariID = usuariID;
+		this.videoID = videoID;
+		this.text = text;
+		this.publicat = publicat;
 	}
 
 	public int getId() {
@@ -30,9 +29,8 @@ public class Comentari implements Comparable<Comentari> {
 	@Override
 	public String toString() {
 		String sql = "";
-		sql += "INSERT INTO S201_n1_ex2.comandes_detall (comanda_id, quantitat, "
-				+ "producte_id) " + "VALUES (" + comandaID + ", " + quantitat
-				+ ", " + producteID + ");";
+		sql += "INSERT INTO S201_n2.comentaris (usuari_id, video_id, text, publicat) " 
+		+ "VALUES (" + usuariID + ", " + videoID + ", \"" + text + "\", \"" + publicat + "\");";
 		return sql;
 	}
 	

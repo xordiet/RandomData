@@ -4,7 +4,6 @@ import java.time.LocalDate;
 import java.time.LocalTime;
 import java.time.Month;
 import java.util.ArrayList;
-import java.util.Collections;
 import java.util.List;
 import java.util.Random;
 import java.util.concurrent.ThreadLocalRandom;
@@ -62,122 +61,93 @@ public class GeneraVideos {
 
 	}	
 	
-	public static List<Etiqueta> gCategories() {
-		List<Etiqueta> categories = new ArrayList<>();
+	public static List<Etiqueta> gEtiquetes() {
+		List<Etiqueta> tags = new ArrayList<>();
 		
-		/*
-		List<String> catPizzes = constants.CATEG_PIZZES;
+		List<String> nomsTags = constants.ETIQUETES;
 		
-		for(int i=0; i<catPizzes.size(); i++) {
-			Etiqueta c;
+		for(int i=0; i<nomsTags.size(); i++) {
+			Etiqueta e;
 			
-			String categoria = catPizzes.get(i);
+			String etiqueta = nomsTags.get(i);
 			
-			c = new Etiqueta(i, categoria);
-			categories.add(c);
+			e = new Etiqueta(i, etiqueta);
+			tags.add(e);
 
 		}
-		*/
-		return categories;
+		return tags;
+
+	}	
+	
+	public static List<Set> setEtiquetes(int genera, int numVideos, int numTags) {
+		List<Set> sets = new ArrayList<>();
+		Random rand = new Random();
+
+		for(int i=0; i<genera; i++) {
+			Set s;
+			
+			int v = rand.nextInt(numVideos)+1;
+			int t = rand.nextInt(numTags)+1;
+	
+			s = new Set(i, v, t);
+			sets.add(s);
+		}
+		return sets;
 
 	}	
 
-	public static List<Like> gComanda(int nombre, int nombreClients, int nombreBotigues, List<Treballador> tRepartidors){
-		
-		int comptador = 1;
-		
-		List<Like> comandes = new ArrayList<>();
-		
+	public static List<Like> setLikes(int numLikes, int numUsuaris, int numVideos){
+		List<Like> likes = new ArrayList<>();
+		List<String> tipusLike = constants.LIKES;
 		Random rand = new Random();
 		
-		//saber el nombre de repartidor que hi ha
-		//tRepartidors.forEach(rp -> System.out.println(rp.getId()+": "+rp.getNif()));
-		//int r = rand.nextInt(tRepartidors.size());
-		//System.out.print("Dels "+tRepartidors.size()+" es tria el núm... ");
-		//Treballador repa = tRepartidors.get(r);
-		//System.out.println(r+"("+repa.getId()+") -> "+repa.getNif());
-		
-		for(int i=0; i<nombre; i++) {
-			Like c;
+		for(int i=0; i<numLikes; i++) {
+			String tipus = tipusLike.get(rand.nextInt(tipusLike.size()));
+			int u = rand.nextInt(numUsuaris)+1;
+			int v = rand.nextInt(numVideos)+1;
+			String moment = "";
+			LocalDate diaInici = LocalDate.of(1979, Month.OCTOBER, 1);
+			LocalDate diaFinal = LocalDate.now();
+			LocalDate dataRand = betweenD(diaInici, diaFinal);
+			LocalTime horaInici = LocalTime.of(0, 0);
+			LocalTime horaFinal = LocalTime.of(23, 59);
+			LocalTime horaRand = betweenT(horaInici, horaFinal);
+			moment = dataRand + " " + horaRand;
 			
-			int id = comptador;
-			int clientID = (int)(Math.random()*(nombreClients-1)+1);
-			
-			String data = "";
-			LocalDate start = LocalDate.of(1979, Month.OCTOBER, 1);
-			LocalDate end = LocalDate.now();
-			LocalDate dataRand = betweenD(start, end);
-			data += dataRand;
-			LocalTime obre = LocalTime.of(8, 30);
-			LocalTime tanca = LocalTime.of(18, 30);
-			LocalTime randomTime = betweenT(obre, tanca);
-			data += " "+randomTime;
-			//LocalDate dtComanda = LocalDate.parse(data);
-			//System.out.print(data);
-			
-			String tipus = "";
-			int randInt = (int)(Math.random()*(8)+1);
-			if (randInt == 1) {
-				tipus = "recollir";
-			} else {
-				tipus = "domicili";
-			}
-			
-			double preu = 10 + rand.nextDouble() * (100 - 10);
-			double preuTotal = Math.round(preu * 100.0)/100.0;
-			
-			int botigaID = (int)(Math.random()*(nombreBotigues-1)+1);
-			//int r = (int)Math.random()*(tRepartidors.size())+1;
-			int r = rand.nextInt(tRepartidors.size());
-			//int r = rand.nextInt(tRepartidors.size());
-			Treballador rep = tRepartidors.get(r);
-			//System.out.println(i+": "+rep.getId());
-			int repartidorID = rep.getId();
-			
-			String datall = "";
-			LocalDate start2 = LocalDate.of(1979, Month.OCTOBER, 1);
-			LocalDate end2 = LocalDate.now();
-			LocalDate dataRand2 = betweenD(start, end);
-			datall += dataRand2;
-			LocalTime obre2 = LocalTime.of(8, 30);
-			LocalTime tanca2 = LocalTime.of(18, 30);
-			LocalTime randomTime2 = betweenT(obre, tanca);
-			datall += " "+randomTime2;
-			//LocalDate dtLliurament = LocalDate.parse(datall);
-						
-			c = new Like(comptador, clientID, data, tipus, preuTotal, botigaID, repartidorID, datall);
-			comandes.add(c);
-			comptador++;
+			Like l = new Like(i, tipus, u, v, moment);
+			likes.add(l);
+
 		}
 		
-		return comandes;
+		return likes;
 	}
 	
-	public static List<Comentari> gDComandes(int nombreComandes, int numProductes){
-		int comptador = 1;
-		List<Comentari> dComandes = new ArrayList<>();
+	public static List<ComentLike> agradaComentari(int numLikes, int numUsuaris, int numComentaris){
+		List<ComentLike> likes = new ArrayList<>();
+		List<String> tipusLike = constants.LIKES;
 		Random rand = new Random();
 		
-		for(int i=1; i<=nombreComandes; i++) {
-			int productes = (int)(Math.random()*(8)+3);
-			for (int j=1; j<=productes; j++) {
-				Comentari d;
-				int id = comptador;
-				int comandaID = i;
-				int quantitat = (int)(Math.random()*(5)+1);
-				int producteID = (int)(Math.random()*(numProductes)+1);
-				
-				d = new Comentari(comptador, comandaID, quantitat, producteID);
-				dComandes.add(d);
-				
-				comptador++;
-				
-			}
+		for(int i=0; i<numLikes; i++) {
+			String tipus = tipusLike.get(rand.nextInt(tipusLike.size()));
+			int u = rand.nextInt(numUsuaris)+1;
+			int c = rand.nextInt(numComentaris)+1;
+			String moment = "";
+			LocalDate diaInici = LocalDate.of(1979, Month.OCTOBER, 1);
+			LocalDate diaFinal = LocalDate.now();
+			LocalDate dataRand = betweenD(diaInici, diaFinal);
+			LocalTime horaInici = LocalTime.of(0, 0);
+			LocalTime horaFinal = LocalTime.of(23, 59);
+			LocalTime horaRand = betweenT(horaInici, horaFinal);
+			moment = dataRand + " " + horaRand;
 			
-		}
+			ComentLike l = new ComentLike(i, tipus, u, c, moment);
+			likes.add(l);
 
-		return dComandes;
+		}
+		
+		return likes;
 	}
+
 	
 	/*
 	 * Genera una data random

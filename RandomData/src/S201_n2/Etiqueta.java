@@ -26,7 +26,7 @@ public class Etiqueta implements Comparable<Etiqueta> {
 	
 	@Override
 	public String toString() {
-		return "INSERT INTO S201_n1_ex2.categories_pizzes (nom) " + "VALUES (\"" + nom + "\");";
+		return "INSERT INTO S201_n2.etiquetes (etiqueta) " + "VALUES (\"" + nom + "\");";
 	}
 	
 }
