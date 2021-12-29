@@ -22,7 +22,7 @@ public class CreaSQL {
 		} catch(Exception e){
 			System.out.println("Error al crear l'arxiu serialitzat");
 		} finally {
-			System.out.println("!");
+			System.out.println("ok :)");
 		}
 
 	}

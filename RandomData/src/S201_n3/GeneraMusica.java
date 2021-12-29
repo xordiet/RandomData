@@ -49,121 +49,104 @@ public class GeneraMusica {
 		return playlists;
 	}
 
-	
-	
-	
-	
-	
-	
-	public static List<Canso> gVideos(int nombreVideos, int nombreUsuaris) {
-				
-		List<Canso> videos = new ArrayList<>();
-		
+	public static List<Album> gAlbums(int numAlbums, int numArtistes){
+		List<Album> albums = new ArrayList<>();
 		Random rand = new Random();
-				
-		for(int i=0; i<nombreVideos; i++) {			
-			int usuariID = rand.nextInt(nombreUsuaris)+1;
-			List<String> est = constants.ESTATS;
-			String estat = est.get(rand.nextInt(est.size()));
-			String titol = "Títol del video";
-			String descripcio = "Aquest vídeo és una passada";
-			int grandaria = rand.nextInt(10000);
-			String nomArxiu = "";
+		
+		for (int i=1; i<=numAlbums; i++) {
+			int artista = rand.nextInt(numArtistes)+1;
+			String titol = "";
 			int rdmExt = rand.nextInt(6)+6;
 			for (int j=0; j<rdmExt; j++) {
 				char caracter = constants.LLETRES.charAt(rand.nextInt(constants.LLETRES.length()));
-				nomArxiu += caracter;
+				titol += caracter;
 			}
-			nomArxiu += ".mp4";
-			String durada = "";
-			LocalTime obre = LocalTime.of(0, 0);
-			LocalTime tanca = LocalTime.of(3, 59);
-			LocalTime randomTime = betweenT(obre, tanca);
-			durada += randomTime;
-			String thumbnail = "Imatge en miniatura del vídeo";
-			int reproduccions = rand.nextInt(500);
-			int likes = rand.nextInt(300);
-			int dislikes = rand.nextInt(100);
-			String publicat = "";
-			LocalDate pStart = LocalDate.of(1979, Month.OCTOBER, 1);
-			LocalDate pEnd = LocalDate.now();
-			LocalDate dataRand = betweenD(pStart, pEnd);
-			LocalTime phStart = LocalTime.of(0, 0);
-			LocalTime phEnd = LocalTime.of(23, 59);
-			LocalTime randomPublicat = betweenT(phStart, phEnd);
-			publicat = dataRand + " " + randomPublicat;
-
+			int anyPublicacio = rand.nextInt(2021-1979)+1979;
+			String imgPortada = "Imatge de la portada del disc";
+			Album a = new Album(i, artista, titol, anyPublicacio, imgPortada);
+			albums.add(a);
+		}
+		return albums;
+	}
+	
+	public static List<Canso> gCansons(int nombreCancons, int nombreArtistes, int nombreAlbums) {
+				
+		List<Canso> cancons = new ArrayList<>();
+		Random rand = new Random();
+				
+		for(int i=0; i<nombreCancons; i++) {			
+			String titol = "Títol del video";
+			LocalTime dStart = LocalTime.of(0, 0);
+			LocalTime dEnd = LocalTime.of(5, 39);
+			LocalTime randDurada = betweenT(dStart, dEnd);
+			String durada = randDurada.toString();
+			int artista = rand.nextInt(nombreArtistes)+1;
+			int album = rand.nextInt(nombreAlbums)+1;
+			int reproduccions = rand.nextInt(23500);
 			
-			
-			Canso v = new Canso(i, usuariID, estat, titol, descripcio, grandaria, nomArxiu, 
-					durada, thumbnail, reproduccions, likes, dislikes, publicat);
-			videos.add(v);
+			Canso c = new Canso(i, titol, durada, artista, album, reproduccions);
+			cancons.add(c);
 		}
 		
-		
-		return videos;
+		return cancons;
 
 	}	
 	
-	public static List<Paypal> gEtiquetes() {
-		List<Paypal> tags = new ArrayList<>();
-		
-		List<String> nomsTags = constants.ETIQUETES;
-		
-		for(int i=0; i<nomsTags.size(); i++) {
-			Paypal e;
-			
-			String etiqueta = nomsTags.get(i);
-			
-			e = new Paypal(i, etiqueta);
-			tags.add(e);
-
-		}
-		return tags;
-
-	}	
-	
-	public static List<Set> setEtiquetes(int genera, int numVideos, int numTags) {
-		List<Set> sets = new ArrayList<>();
+	public static List<PLDetails> oPlayLists(int genera, int numPlayLists, int numCancons, int numUsuaris) {
+		List<PLDetails> plContent = new ArrayList<>();
 		Random rand = new Random();
 
 		for(int i=0; i<genera; i++) {
-			Set s;
 			
-			int v = rand.nextInt(numVideos)+1;
-			int t = rand.nextInt(numTags)+1;
-	
-			s = new Set(i, v, t);
-			sets.add(s);
-		}
-		return sets;
-
-	}	
-
-	public static List<Like> setLikes(int numLikes, int numUsuaris, int numVideos){
-		List<Like> likes = new ArrayList<>();
-		List<String> tipusLike = constants.LIKES;
-		Random rand = new Random();
-		
-		for(int i=0; i<numLikes; i++) {
-			String tipus = tipusLike.get(rand.nextInt(tipusLike.size()));
+			int p = rand.nextInt(numPlayLists)+1;
+			int c = rand.nextInt(numCancons)+1;
 			int u = rand.nextInt(numUsuaris)+1;
-			int v = rand.nextInt(numVideos)+1;
-			String moment = "";
 			LocalDate diaInici = LocalDate.of(1979, Month.OCTOBER, 1);
 			LocalDate diaFinal = LocalDate.now();
 			LocalDate dataRand = betweenD(diaInici, diaFinal);
-			LocalTime horaInici = LocalTime.of(0, 0);
-			LocalTime horaFinal = LocalTime.of(23, 59);
-			LocalTime horaRand = betweenT(horaInici, horaFinal);
-			moment = dataRand + " " + horaRand;
+			String dataAddicio = dataRand.toString();
+	
+			PLDetails o = new PLDetails(i, p, c, u, dataAddicio);
+			plContent.add(o);
+		}
+		return plContent;
+
+	}	
+
+	public static List<Seguiment> gSeguments(int genera, int numUsuaris, int numArtistes) {
+		List<Seguiment> seguiments = new ArrayList<>();
+		Random rand = new Random();
+
+		for(int i=0; i<genera; i++) {
+			Seguiment s;
 			
-			Like l = new Like(i, tipus, u, v, moment);
-			likes.add(l);
+			int u = rand.nextInt(numUsuaris)+1;
+			int a = rand.nextInt(numArtistes)+1;
+	
+			s = new Seguiment(i, u, a);
+			seguiments.add(s);
+		}
+		return seguiments;
+
+	}	
+
+	public static List<Favorit> setFavs(int numLikes, int numUsuaris, int numAlbums, int numCancons){
+		List<Favorit> favorits = new ArrayList<>();
+		List<String> tipusFAV = constants.TIPUS_FAV;
+		Random rand = new Random();
+		
+		for(int i=0; i<numLikes; i++) {
+			int u = rand.nextInt(numUsuaris)+1;
+			int a = rand.nextInt(numAlbums)+1;
+			int c = rand.nextInt(numCancons)+1;
+			String tipus = tipusFAV.get(rand.nextInt(tipusFAV.size()));
+			
+			Favorit f = new Favorit(i, u, a, c, tipus);
+			favorits.add(f);
 
 		}
 		
-		return likes;
+		return favorits;
 	}
 	
 	

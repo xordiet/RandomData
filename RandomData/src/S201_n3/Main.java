@@ -18,18 +18,17 @@ public class Main {
 		int nombrePaypals = 300;
 		int nombrePagaments = 2500;
 		int nombrePlayLists=8000;
-		
-		int nombreVideos=2500;
-		int nombreSets=7500;
-		int nombreCanals=600;
-		int nombreLikes=12000;
+		int nombreArtistes=15000;
+		int nombreAlbums = 25000;
+		int nombreRelacions = 20000;
+		int nombreCancons = 35000;
 		int omplePlayLists=25000;
-		int nombreComentaris=18000;
-		int nombreLikesComent=8000;
-		
+		int numSeguiments=30000;
+		int nombreFavs=50000;
+				
 		System.out.println("Paciència...");
 				
-		sqlGeneral += "\n-- Insertem els Països existents\n";
+		sqlGeneral += "-- Insertem els Països existents\n";
 		List<Pais> lPaisos = GeneraAltres.gPaisos();
 		lPaisos.forEach(p -> {
 			sqlGeneral += p.toString();
@@ -76,6 +75,31 @@ public class Main {
 			sqlGeneral += "\n";			
 		});
 		
+		System.out.println("Still running: generant els artistes... Paciència, són "+nombreArtistes);
+		sqlGeneral += "\n-- Generem els artistes\n";
+		List<Artista> lArtistes = GeneraPersones.gArtistes(nombreArtistes);
+		lArtistes.forEach(a -> {
+			sqlGeneral += a.toString();
+			sqlGeneral += "\n";			
+		});
+
+		System.out.println("Still running: generant els albums... Paciència, són "+nombreAlbums);
+		sqlGeneral += "\n-- Generem els albums\n";
+		List<Album> lAlbums = GeneraMusica.gAlbums(nombreAlbums, nombreArtistes);
+		lAlbums.forEach(a -> {
+			sqlGeneral += a.toString();
+			sqlGeneral += "\n";			
+		});
+
+		System.out.println("Still running: generant els artistes relacionats... Paciència, són "+nombreRelacions);
+		sqlGeneral += "\n-- Generem els artistes relacionats\n";
+		List<Relacionat> lArtRelac = GeneraPersones.gRelacions(nombreRelacions, nombreArtistes);
+		lArtRelac.forEach(a -> {
+			sqlGeneral += a.toString();
+			sqlGeneral += "\n";			
+		});
+
+		System.out.println("Still running: generant les playlist...");
 		sqlGeneral += "\n-- Generem les Playlist\n";
 		List<Playlist> lPlaylists = GeneraMusica.gPlaylists(nombrePlayLists, nombreUsuaris);
 		lPlaylists.forEach(p -> {
@@ -83,68 +107,41 @@ public class Main {
 			sqlGeneral += "\n";			
 		});
 
-		
-
-
-		/*
-		sqlGeneral += "\n-- Generem el llistat de videos\n";
-		List<Canso> lVideos = GeneraMusica.gVideos(nombreVideos, nombreUsuaris);
-		lVideos.forEach(v -> {
-			sqlGeneral += v.toString();
-			sqlGeneral += "\n";
-		});
-		int numVideos = lVideos.size();
-		
-		sqlGeneral += "\n-- Creem les etiquetes\n";
-		List<Paypal> lTags = GeneraMusica.gEtiquetes();
-		lTags.forEach(t -> {
-			sqlGeneral += t.toString();
-			sqlGeneral += "\n";			
-		});
-		int numEtiquetes = lTags.size();
-		
-		sqlGeneral += "\n-- Apliquem les etiquetes als videos\n";
-		List<Set> lSets = GeneraMusica.setEtiquetes(nombreSets, numVideos, numEtiquetes);
-		lSets.forEach(t -> {
-			sqlGeneral += t.toString();
-			sqlGeneral += "\n";			
-		});
-
-		//NO funciona
-		sqlGeneral += "\n-- Generem el llistat de canals\n";
-		List<Favorit> lCanals = GeneraPersones.gCanals(nombreCanals, nombreUsuaris);
-		lCanals.forEach(c -> {
+		System.out.println("Still running: generant el llistat de cançons... Paciència, són "+nombreCancons);
+		sqlGeneral += "\n-- Generem el llistat de cançons\n";
+		List<Canso> lCancons = GeneraMusica.gCansons(nombreCancons, nombreArtistes, nombreAlbums);
+		lCancons.forEach(c -> {
 			sqlGeneral += c.toString();
 			sqlGeneral += "\n";
 		});
+		
+		System.out.println("Still running: Omplint els detalls de les PlayLists... Paciència, són "+omplePlayLists);
+		sqlGeneral += "\n-- Omplim els detalls de les PlayLists\n";
+		List<PLDetails> oPlayLists = GeneraMusica.oPlayLists(omplePlayLists, nombrePlayLists, nombreCancons, nombreUsuaris);
+		oPlayLists.forEach(o -> {
+			sqlGeneral += o.toString();
+			sqlGeneral += "\n";			
+		});
 
+		System.out.println("Still running: Creem els seguiments... Paciència, són "+numSeguiments);
+		sqlGeneral += "\n-- Creem els seguiments\n";
+		List<Seguiment> lSeguiments = GeneraMusica.gSeguments(numSeguiments, nombreUsuaris, nombreArtistes);
+		lSeguiments.forEach(s -> {
+			sqlGeneral += s.toString();
+			sqlGeneral += "\n";			
+		});
 
-		sqlGeneral += "\n-- Creem els likes\n";
-		List<Like> lLikes = GeneraMusica.setLikes(nombreLikes, nombreUsuaris, nombreVideos);
+		System.out.println("Still running: Creem els favorits... Paciència, són "+nombreFavs);
+		sqlGeneral += "\n-- Creem els Favorits\n";
+		List<Favorit> lLikes = GeneraMusica.setFavs(nombreFavs, nombreUsuaris, nombreAlbums, nombreCancons);
 		lLikes.forEach(l -> {
 			sqlGeneral += l.toString();
 			sqlGeneral += "\n";			
 		});
 		
-		sqlGeneral += "\n-- Generem les PlayList\n";
-		List<Playlist> lPlayLists = GeneraPersones.gPlaylists(nombrePlayLists, nombreUsuaris);
-		lPlayLists.forEach(p -> {
-			sqlGeneral += p.toString();
-			sqlGeneral += "\n";			
-		});
-
-		sqlGeneral += "\n-- Omplim les PlayList\n";
-		List<PLDetails> oPlayLists = GeneraPersones.oPlayLists(omplePlayLists, nombrePlayLists, nombreUsuaris);
-		oPlayLists.forEach(o -> {
-			sqlGeneral += o.toString();
-			sqlGeneral += "\n";			
-		});
-		*/
-
 		System.out.println(sqlGeneral);
 		CreaSQL.serialSQL(sqlGeneral, "inserta_tot");
 		System.out.println("Ja hem acabat! :)");
-		
 		
 	}
 

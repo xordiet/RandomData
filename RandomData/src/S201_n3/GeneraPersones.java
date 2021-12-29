@@ -71,41 +71,35 @@ public class GeneraPersones {
 
 	}
 		
-	
-	
-	/*public static List<Favorit> gCanals(int numCanals, int numUsuaris) {
-		List<Favorit> canals = new ArrayList<>();
+	public static List<Artista> gArtistes(int numArtistes){
+		List<Artista> artistes = new ArrayList<>();
 		Random rand = new Random();
-		
-		for(int i=0; i<numCanals; i++) {
-			Favorit c;
-			
-			String nom = "canal ";
+		for (int i=1; i<=numArtistes; i++) {
+			String nom = "";
 			int rdmExt = (int)(Math.random()*(6)+6);
 			for (int j=0; j<rdmExt; j++) {
 				char caracter = constants.LLETRES.charAt(rand.nextInt(constants.LLETRES.length()));
 				nom += caracter;
 			}
-
-			String descripcio = "Aquest canal tracta sobre...";
-			int creador = rand.nextInt(numUsuaris)+1;
-			String dataCreacio = "";
-			LocalDate diaInici = LocalDate.of(1979, Month.OCTOBER, 1);
-			LocalDate diaFinal = LocalDate.now();
-			LocalDate dataRand = betweenD(diaInici, diaFinal);
-			//LocalTime horaInici = LocalTime.of(0, 0);
-			//LocalTime horaFinal = LocalTime.of(23, 59);
-			//LocalTime horaRand = betweenT(horaInici, horaFinal);
-			dataCreacio = dataRand.toString();
-
-			c = new Favorit(i, nom, descripcio, creador, dataCreacio);
-			canals.add(c);
-
+			Artista a = new Artista(i, nom, "imatge de l'artista");
+			artistes.add(a);
 		}
-		return canals;
-
-	}	
-	 */
+		
+		return artistes;
+	}
+	
+	public static List<Relacionat> gRelacions(int numRelacions, int numArtistes){
+		List<Relacionat> artistesRelac = new ArrayList<>();
+		Random rand = new Random();
+		for(int i=1; i<=numRelacions; i++) {
+			int artistBase = rand.nextInt(numArtistes)+1;
+			int artistRelac = rand.nextInt(numArtistes)+1;
+			Relacionat r = new Relacionat(i, artistBase, artistRelac);
+			artistesRelac.add(r);
+			
+		}
+		return artistesRelac;
+	}
 	
 	public static List<Subscripcio> gSubscripcions(int nombreSubscripcions, List<Usuari> sonPremium) {
 		List<Subscripcio> subscr = new ArrayList<>();
@@ -164,35 +158,6 @@ public class GeneraPersones {
 		return pagaments;
 	}
 	
-	
-	
-	
-	
-	
-	public static List<PLDetails> oPlayLists(int genera, int numPlayLists, int numVideos) {
-		List<PLDetails> plContent = new ArrayList<>();
-		Random rand = new Random();
-
-		for(int i=0; i<genera; i++) {
-			
-			int p = rand.nextInt(numPlayLists)+1;
-			int v = rand.nextInt(numVideos)+1;
-			String afegit = "";
-			LocalDate diaInici = LocalDate.of(1979, Month.OCTOBER, 1);
-			LocalDate diaFinal = LocalDate.now();
-			LocalDate dataRand = betweenD(diaInici, diaFinal);
-			LocalTime horaInici = LocalTime.of(0, 0);
-			LocalTime horaFinal = LocalTime.of(23, 59);
-			LocalTime horaRand = betweenT(horaInici, horaFinal);
-			afegit = dataRand + " " + horaRand;
-	
-			PLDetails c = new PLDetails(i, p, v, afegit);
-			plContent.add(c);
-		}
-		return plContent;
-
-	}	
-
 	
 	/*
 	 * Genera una data random
